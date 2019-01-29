@@ -21,3 +21,26 @@ Ideas for staying fit without a gym and limited home equipment.
 * Suggests better shoes, Nike changed how people run landing on big cushy heel
 
 ---
+
+##### [4 Ancient Bodyweight Exercises](https://breakingmuscle.com/fitness/4-ancient-bodyweight-exercises-for-new-results)
+
+* Hindu Squats: squat with heels off the ground
+* Archer Squats: extended leg + single leg squat
+* Half Moon Push Ups: bent knee, rotate chest from hand to hand
+* Dead Man’s Crawl: no-bar pullups (no need to swiffer anymore 😅)
+
+---
+
+##### [Deck of Pain](https://www.artofmanliness.com/articles/the-prisoner-workout/)
+
+Deck of 52 cards, assign exercises to the four suits, e.g.:
+
+* Clubs: Push-ups
+* Spades: Pull-ups
+* Diamonds: Squats
+* Hearts: Hanging Leg Raises
+
+Shuffle deck, draw cards, the number tells you the reps, suit tells you exercise
+
+---
+
