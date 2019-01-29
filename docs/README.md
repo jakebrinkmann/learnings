@@ -1,6 +1,6 @@
 # Learnings
 
-> Knowledge is always cumulative and therefor [we] concede that future eras will know more than we do.  
+> Knowledge is always cumulative and [we] therefore concede that future eras will know more than we do.  
 >   — _Kathryn Schulz_
 
 Summary resources for things I have learned.
