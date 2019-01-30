@@ -1,6 +1,11 @@
 # Blogging
 
 Strategies for sharing information with the global community.
+
+## Community
+
+* [meta-knowledge](https://github.com/RichardLitt/meta-knowledge) - many people are aggregating their knowledge and sharing it online as a Github (gitbooks.io) repo
+
 ## Blogging Tools
 
 ### Static Site Generators
