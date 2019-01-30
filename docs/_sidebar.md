@@ -1,8 +1,8 @@
 * [Home](/)
 * Health
-  * [Mindset](mindset/)
-  * [Nutrition](nutrition/)
-  * [Fitness](fitness/)
+  * [Mindset](mindset.md)
+  * [Nutrition](nutrition.md)
+  * [Fitness](fitness.md)
 * Growth
-  * [Learning](learning/)
-  * [Blogging](blogging/)
+  * [Learning](learning.md)
+  * [Blogging](blogging.md)
