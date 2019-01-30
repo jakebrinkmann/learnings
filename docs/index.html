@@ -39,6 +39,7 @@
       <strong>We're sorry but jakebrinkmann.com doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
   <div id="app">Please wait...</div>
+  <script src="//unpkg.com/docsify-edit-on-github@1.0.1/index.js"></script>
   <script>
     window.$docsify = {
       name: 'Learnings by Jake',
@@ -47,6 +48,11 @@
       themeColor: '#228DFF',
       loadSidebar: true,
       executeScript: true,
+      plugins: [
+        EditOnGithubPlugin.create(
+          'https://github.com/jakebrinkmann/learnings/blob/master/docs/'
+        ),
+      ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
