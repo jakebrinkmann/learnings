@@ -7,7 +7,6 @@ Ideas for staying fit without a gym and limited home equipment.
 
 ---
 
-##### [Dr. Rhonda Patrick on The Joe Rogan Experience](https://itunes.apple.com/us/podcast/the-joe-rogan-experience/id360084272?mt=2&i=1000397707330)
 
 * **Rhonda**: Exercise increase uptake of serotonin into the brain
 * Running frame of mind is similar to a state of day-dreaming (good kind, reflection; not bad-kind spaced out) improving clarity when handling stress
@@ -20,18 +19,19 @@ Ideas for staying fit without a gym and limited home equipment.
 * **Joe**: Hindu squats are great to strengthen knees
 * Suggests better shoes, Nike changed how people run landing on big cushy heel
 
----
+1. [Dr. Rhonda Patrick on The Joe Rogan Experience](https://itunes.apple.com/us/podcast/the-joe-rogan-experience/id360084272?mt=2&i=1000397707330)
+2. My friend [Thomas](https://twitter.com/listenaddress) pointed me to Rhonda Patrick
 
-##### [4 Ancient Bodyweight Exercises](https://breakingmuscle.com/fitness/4-ancient-bodyweight-exercises-for-new-results)
+---
 
 * Hindu Squats: squat with heels off the ground
 * Archer Squats: extended leg + single leg squat
 * Half Moon Push Ups: bent knee, rotate chest from hand to hand
 * Dead Man’s Crawl: no-bar pullups (no need to swiffer anymore 😅)
 
----
+1. [4 Ancient Bodyweight Exercises](https://breakingmuscle.com/fitness/4-ancient-bodyweight-exercises-for-new-results)
 
-##### [Deck of Pain](https://www.artofmanliness.com/articles/the-prisoner-workout/)
+---
 
 Deck of 52 cards, assign exercises to the four suits, e.g.:
 
@@ -41,6 +41,8 @@ Deck of 52 cards, assign exercises to the four suits, e.g.:
 * Hearts: Hanging Leg Raises
 
 Shuffle deck, draw cards, the number tells you the reps, suit tells you exercise
+
+1. [Deck of Pain](https://www.artofmanliness.com/articles/the-prisoner-workout/)
 
 ---
 
