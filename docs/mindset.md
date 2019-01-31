@@ -36,3 +36,9 @@ A great designer generates lots of ideas, knowing most will be aborted - Kevin K
 
 ---
 
+Meditation Resources
+
+* UCLA Mindful Awareness Research Center: https://www.uclahealth.org/marc/mindful-meditations (also available on Apple Podcasts)
+* Sam Harris Guided Meditation: https://samharris.org/podcasts/mindfulness-meditation/ [1]
+
+1. My friend [Thomas](https://twitter.com/listenaddress) pointed me to Sam Harris
