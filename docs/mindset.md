@@ -3,10 +3,10 @@
 Any sustainable ways to stay positive and achieve life goals.
 
 
-## Quotes 
+## Quotes
 
 * Life is 10% of what happens to you, and 90% of how YOU react to it
-* Growth is a long term game, and the crappy days are more important 
+* Growth is a long term game, and the crappy days are more important
 * If life shuts a door, open it again. It's a door, that's how they work
 * The best way to predict the future is to create it
 * A river cuts through rocks, not because of its power, but because of its persistence
@@ -22,13 +22,13 @@ Any sustainable ways to stay positive and achieve life goals.
 * Transcendental meditation helped to separate focus
 * Would work for 45 minutes then play chess for 15; Feel fresh like haven't already worked that day
 
-1: [Arnold Schwarzenegger on The Tim Ferris Show](https://itunes.apple.com/us/podcast/the-tim-ferriss-show/id863897795?mt=2&i=1000334626780)
+1. [Arnold Schwarzenegger on The Tim Ferris Show](https://itunes.apple.com/us/podcast/the-tim-ferriss-show/id863897795?mt=2&i=1000334626780)
 
 ---
 
 Kubrick found what he wanted by trying things out [1]
 
-1: https://news.ycombinator.com/item?id=16840863
+1. https://news.ycombinator.com/item?id=16840863
 
 ---
 
