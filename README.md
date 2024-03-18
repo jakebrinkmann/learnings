@@ -5,11 +5,11 @@ keeping dedicated topic notes on my projects and collaborators
 Come on in; the water's fine!
 
 ```sh
-git clone git@github.com:jakebrinkmann/notes-public.git ~/notes-public
-codium ~/notes-public
+git clone git@github.com:jakebrinkmann/learnings.git ~/learnings
+codium ~/learnings
 ```
 
-> Design, Decide, Simplify, Code, Document, 
+> Design, Decide, Simplify, Code, Document,
 > Communicate, Estimate, Balance, Consult, Market
 
 ## Topics
