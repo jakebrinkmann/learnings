@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@1.2.0/dist/tailwind.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@2.8.2/dist/alpine.min.js"
+            defer crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-gray-300 text-gray-800">
+    <header class="border-t-4 border-blue-700 bg-white shadow-md">
+      <nav class="container mx-auto px-4 flex items-center justify-between py-4">
+        <ul class="flex">
+          <li><a href="#">Home</a></li>
+        </ul>
+        <!--- NOTE: ADD x-data here, so button can toggle -->
+        <div class="relative" x-data="{ isOpen: false }">
+          <button
+            class="flex items-center"
+            x-on:click="isOpen = !isOpen"
+            x-on:keydown.escape="isOpen = false"
+            >
+            <img
+              src="https://www.gravatar.com/avatar?d=mm"
+              alt="avatar"
+              class="w-8 h-8 rounded-full"
+              >
+            <svg
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              class="heroicon-ui"
+              >
+            </svg>
+          </button>
+          <ul
+            class="absolute font-normal bg-white shadow overflow-hidden rounded w-48 border mt-2 py-1 right-0 z-20"
+            x-show='isOpen'
+            x-on:click.away="isOpen = false"
+            >
+            <li>X</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>

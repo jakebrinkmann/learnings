@@ -1,0 +1,53 @@
+# [Permission scopes | Slack](https://api.slack.com/scopes)
+
+- **appMentions:readView** messages that directly mention @your_slack_app in conversations that the app is inLegacy botBot
+- **calls:readView** information about ongoing and past callsUserLegacy botBot
+- **calls:writeStart** and manage calls in a workspaceUserLegacy botBot
+- **channels:historyView** messages and other content in public channels that your slack app has been added toUserLegacy botWorkspaceBot
+- **channels:joinJoin** public channels in a workspaceLegacy botBot
+- **channels:manageManage** public channels that your slack app has been added to and create new onesLegacy botBot
+- **channels:readView** basic information about public channels in a workspaceUserLegacy botWorkspaceBot
+- **chat:writePost** messages in approved channels & conversationsUserBotWorkspace
+- **chat:write**.customizeSend messages as @your_slack_app with a customized username and avatarLegacy botBot
+- **chat:write**.publicSend messages to channels @your_slack_app isn't a member ofLegacy botBot
+- **commandsAdd** shortcuts and/or slash commands that people can useUserBot
+- **conversations.connect:manageAllows** your slack app to manage Slack Connect channelsLegacy botBot
+- **conversations.connect:readReceive** Slack Connect invite events sent to the channels your slack app is inLegacy botBot
+- **conversations.connect:writeCreate** Slack Connect invitations for channels that your slack app has been added to, and accept invitations sent to your slack appLegacy botBot
+- **dnd:readView** Do Not Disturb settings for people in a workspaceUserLegacy botWorkspaceBot
+- **emoji:readView** custom emoji in a workspaceUserLegacy botWorkspaceBot
+- **files:readView** files shared in channels and conversations that your slack app has been added toUserLegacy botWorkspaceBot
+- **files:writeUpload**, edit, and delete files as your slack appUserWorkspaceBot
+- **groups:historyView** messages and other content in private channels that your slack app has been added toUserLegacy botWorkspaceBot
+- **groups:readView** basic information about private channels that your slack app has been added toUserLegacy botWorkspaceBot
+- **groups:writeManage** private channels that your slack app has been added to and create new onesUserLegacy botWorkspaceBot
+- **im:historyView** messages and other content in direct messages that your slack app has been added toUserLegacy botWorkspaceBot
+- **im:readView** basic information about direct messages that your slack app has been added toUserLegacy botWorkspaceBot
+- **im:writeStart** direct messages with peopleUserLegacy botWorkspaceBot
+- **incoming-webhookCreate** one-way webhooks to post messages to a specific channelUserLegacy botBot
+- **links:readView** URLs in messagesUserLegacy botWorkspaceBot
+- **links:writeShow** previews of URLs in messagesUserLegacy botWorkspaceBot
+- **mpim:historyView** messages and other content in group direct messages that your slack app has been added toUserLegacy botWorkspaceBot
+- **mpim:readView** basic information about group direct messages that your slack app has been added toUserLegacy botWorkspaceBot
+- **mpim:writeStart** group direct messages with peopleUserLegacy botWorkspaceBot
+- **noneExecute** methods without needing a scopeLegacy botWorkspaceBot
+- **pins:readView** pinned content in channels and conversations that your slack app has been added toUserLegacy botWorkspaceBot
+- **pins:writeAdd** and remove pinned messages and filesUserLegacy botWorkspaceBot
+- **reactions:readView** emoji reactions and their associated content in channels and conversations that your slack app has been added toUserLegacy botWorkspaceBot
+- **reactions:writeAdd** and edit emoji reactionsUserLegacy botWorkspaceBot
+- **reminders:readView** reminders created by your slack appUserLegacy botBot
+- **reminders:writeAdd**, remove, or mark reminders as completeUserLegacy botBot
+- **remoteFiles:readView** remote files added by the app in a workspaceUserLegacy botBot
+- **remoteFiles:shareShare** remote files on a user’s behalfUserLegacy botBot
+- **remoteFiles:writeAdd**, edit, and delete remote files on a user’s behalfLegacy botBot
+- **team.billing:readAllows** your slack app to read the billing plan for workspaces your slack app has been installed toUserLegacy botBot
+- **team.preferences:readAllows** your slack app to read the preferences for workspaces your slack app has been installed toUserLegacy botBot
+- **team:readView** the name, email domain, and icon for workspaces your slack app is connected toUserLegacy botWorkspaceBot
+- **tokens.basicExecute** methods without needing a scopeUserLegacy botWorkspaceBot
+- **usergroups:readView** user groups in a workspaceUserLegacy botWorkspaceBot
+- **usergroups:writeCreate** and manage user groupsUserLegacy botWorkspaceBot
+- **users.profile:readView** profile details about people in a workspaceUserLegacy botWorkspaceBot
+- **users:readView** people in a workspaceUserLegacy botWorkspaceBot
+- **users:read**.emailView email addresses of people in a workspaceUserLegacy botWorkspaceBot
+- **users:writeSet** presence for your slack appUserLegacy botBot
+- **workflow.steps:executeAdd** steps that people can use in Workflow Builder
