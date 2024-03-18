@@ -7,9 +7,10 @@ In Diátaxis, each of these modes (or types) answers to a different user need,
 fulfills a different purpose and requires a different approach to its creation.
 
 
+| | |
+| ---------------------- | -------------------- |
 | **Tutorials**          | **How-to Guides**    |
 | Learning-Oriented      | Task-Oriented        |
-| ---------------------- | -------------------- |
 | **Explaination**       | **Reference**        |
 | Understanding-Oriented | Information-Oriented |
 
