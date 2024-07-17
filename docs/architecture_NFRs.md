@@ -1,0 +1,10 @@
+- **Performance**:    How fast does the system return results?
+- **Scalability**:    How much will this performance change with higher workloads?
+- **Portability**:    Which hardware, operating systems, and browsers, along with their versions does the software run on?
+- **Compatibility**:    Does it conflict with other applications and process within these environments?
+- **Reliability**:    How often does the system experience critical failures
+- **Maintainability**:    How much time does it take to fix the issue when it arises?
+- **Availability**:    How is user availability time compared to downtime?
+- **Security**:    How well are the system and its data protected against attacks?
+- **Localization**:    Is the system compatible with local specifics?
+- **Usability**:    How easy is it for the customer to use the system?
