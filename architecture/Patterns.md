@@ -1,29 +1,30 @@
 # [Design Patterns](https://refactoring.guru/design-patterns)
+
 - Creational Patterns
-    - Abstract Factory
-    - Builder
-    - Factory Method
-    - Prototype
-    - Singleton
+  - Abstract Factory
+  - Builder
+  - Factory Method
+  - Prototype
+  - Singleton
 - Structural Patterns
-    - Adapter: allows objects with incompatible interfaces to collaborate.
-    - Bridge: lets you split large (or set of closely related) classes into two separate hierarchies
-    - Composite: lets you compose objects into tree structures
-    - Decorator: lets you attach new behaviors to objects
-    - Facade: provides a simplified interface to a library
-    - Flyweight: sharing common parts of state between multiple objects
-    - Proxy: provide a substitute or placeholder for another object (controls access)
+  - Adapter: allows objects with incompatible interfaces to collaborate.
+  - Bridge: lets you split large (or set of closely related) classes into two separate hierarchies
+  - Composite: lets you compose objects into tree structures
+  - Decorator: lets you attach new behaviors to objects
+  - Facade: provides a simplified interface to a library
+  - Flyweight: sharing common parts of state between multiple objects
+  - Proxy: provide a substitute or placeholder for another object (controls access)
 - Behavioral Patterns
-    - Chain of Responsibility
-    - Command
-    - Iterator
-    - Mediator
-    - Memento
-    - Observer
-    - State
-    - Strategy
-    - Template Method
-    - Visitor
+  - Chain of Responsibility
+  - Command
+  - Iterator
+  - Mediator
+  - Memento
+  - Observer
+  - State
+  - Strategy
+  - Template Method
+  - Visitor
 
 SOLID Monolith (<1995), Horizontally Layered (1995-2010), Decoupled/Independent (2010+)
 
@@ -63,3 +64,11 @@ SOLID Monolith (<1995), Horizontally Layered (1995-2010), Decoupled/Independent 
 - EventDrivenArchitecture
 
 - domain-driven-design
+
+## SOLID Principles
+
+- Single responsibility
+- Open–closed
+- Liskov substitution
+- Interface segregation
+- Dependency inversion

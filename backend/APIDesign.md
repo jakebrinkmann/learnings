@@ -1,4 +1,4 @@
-> You are not a drop in the ocean. You are the entire ocean in a drop.
+j> You are not a drop in the ocean. You are the entire ocean in a drop.
 > <_protocol_> :// <_hostname_> [: <_port_>] / <_path_> [? <_query_>] [# <fragment>]
 
 Resource Model
