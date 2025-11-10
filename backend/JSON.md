@@ -2,7 +2,7 @@
 
 # gateway-responses
 
-- https://docs.aws.amazon.com/apigateway/api-reference/
+- <https://docs.aws.amazon.com/apigateway/api-reference/>
 - The Amazon API Gateway web service is a resource-based API that uses Hypertext Application Language (HAL)
 
 ```json
@@ -81,12 +81,11 @@
 }
 ```
 
-
 # HAL
 
-- https://martinfowler.com/articles/richardsonMaturityModel.html#level3
-- https://blog.kloud.com.au/2015/10/26/creating-service-contract-with-autorest-swagger-and-hal/
-- https://www.oreilly.com/library/view/restful-web-clients/9781491921890/ch04.html
+- <https://martinfowler.com/articles/richardsonMaturityModel.html#level3>
+- <https://blog.kloud.com.au/2015/10/26/creating-service-contract-with-autorest-swagger-and-hal/>
+- <https://www.oreilly.com/library/view/restful-web-clients/9781491921890/ch04.html>
 
 ```json
 {
@@ -133,9 +132,9 @@
 }
 ```
 
-
 # hateoas-jsonapi
-- https://jsonapi.org/ `(application/vnd.api+json)`
+
+- <https://jsonapi.org/> `(application/vnd.api+json)`
 
 ```json
 {
@@ -195,10 +194,9 @@
 }
 ```
 
-
-
 # ld
-- https://schema.org/Thing
+
+- <https://schema.org/Thing>
 
 ```json
 {
@@ -221,9 +219,9 @@
 }
 ```
 
-
 # oauth-jwt
-- https://tools.ietf.org/html/draft-ietf-oauth-access-token-jwt-12
+
+- <https://tools.ietf.org/html/draft-ietf-oauth-access-token-jwt-12>
 
 ```json
    // Header:
@@ -239,9 +237,9 @@
    }
 ```
 
-
 # problem
-- https://tools.ietf.org/html/rfc7807
+
+- <https://tools.ietf.org/html/rfc7807>
 
 ```json
 {
@@ -252,10 +250,9 @@
    }
 ```
 
-
-
 # rpc-2-0
-- https://www.jsonrpc.org/specification
+
+- <https://www.jsonrpc.org/specification>
 
 ```json
 {
@@ -266,10 +263,10 @@
 }
 ```
 
-
 # schema
-- https://jsonschema.net/home
-- https://json-schema.org/latest/json-schema-validation.html
+
+- <https://jsonschema.net/home>
+- <https://json-schema.org/latest/json-schema-validation.html>
 
 ```json
 {
@@ -286,7 +283,6 @@
     ]
 }
 ```
-
 
 # emf (Embedded metric format)
 
@@ -361,7 +357,8 @@ MUST contain the following top-level member on the root node. This is a Metadata
 | `data`                | `changes` value (array of `revs`)     |
 
 # OTLP (OpenTelemetry)
-- https://opentelemetry.io/docs/specs/otlp/
+
+- <https://opentelemetry.io/docs/specs/otlp/>
 
 ```json
 # TRACES
@@ -444,4 +441,40 @@ MUST contain the following top-level member on the root node. This is a Metadata
               "traceId": "08040201000000000000000000000000",
               "spanId": "0102040800000000"
             } ] } ] } ] }
+```
+
+## AWS API Gateway Proxy Integration
+
+```json
+{
+  "resource": "/myresource/{proxy+}",
+  "path": "/myresource/somepath",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Host": "api.example.com",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+  },
+  "queryStringParameters": {
+    "param1": "value1",
+    "param2": "value2"
+  },
+  "pathParameters": {
+    "proxy": "somepath"
+  },
+  "stageVariables": {
+    "stageVar1": "value1"
+  },
+  "requestContext": {
+    "accountId": "123456789012",
+    "apiId": "abcdefg123",
+    "stage": "prod",
+    "requestId": "uuid-1234-5678-9012",
+    "identity": {
+      "sourceIp": "192.0.2.1"
+    }
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
 ```
