@@ -1,47 +1,69 @@
-A popular activity is to post a weekly todo list, then edit progress as items are checked-off.
+# Accountability (slack/discord)
 
-Week of **June 18**```
-`---`
-`[ ]` your tasks
-`[ ]` more task(s)
-`[ ]` `MON` go to grocery store
-`---`
+# accountability
 
-# BASIC task codes:
+    Week 17 April 20-27
+    Monday April 19
+    In: 6:30
+    Out: 17:00
+    Lunch: 0:30
+    Morning:
+      - [ ] 🔼 IMPROVE: searching/sorting users [JIRA-1105]
+      - [ ] 🚧 CHORE: update api gateway for "Identity" function [JIRA-1149]
+      - [ ] 🔼 IMPROVE: return third-party site id ➕[JIRA-1161]
+    Afternoon:
+      - [ ] 🏁 RELEASE: User groups/management improvements
 
-[ ] pending/planned
-[%] some percentage done
-[~] in-progress right now (deprecated because hard to see)
-[*] in-progress right now (2019 version)
-[?] stalled (by lack of info)
-[.] paused (by me)
-[:] blocked (by external conditions)
-[X] done
-[+] added+done
-[>] bumped/deferred to next week
-[-] removed
-[/] failed
+    Week 16 April 13-19
+    [ ] ⬆️ IMPROVE: UserGroups API for AB
+    [ ] ⬆️ IMPROVE: UserGroups for SD/Cognito
+    [ ] ⭐ FEAT: Terminal Communications (JB/SD)
+    [ ] 🐛 FIX: OL Convo ID & Retries
+    [ ] 🐛 FIX: MSG Site/Root Account
+    ...
+    [x] 📝 DOC: Communications blog
+    [ ] 💬 SD: Update IPG/EPG ticket
+    [x] MON 💬 AB: Talk about User Management
+    ...
+    [x] MON 🔦 Backlog Grooming
+    [ ] TUE 🏥 Retrospective
+    [ ] TUE 💸 Show N Tell
+    [ ] WED 🎯 Sprint Planning
 
-# Here are my SPECIAL CASE task codes:
 
-[ ] MON task (scheduled for Monday)
-[X] MON task (scheduled and completed on Monday as planned)
-[X] MON task TUE (scheduled for Monday, but completed Tuesday)
-[ ] task x5 (task should be repeated 5 times)
-[2] task x5 (task was repeated twice so far)
-[5] task x5 (task was successful)
-{ } optional stretch/would-be-nice task
-!!! MON uh-oh it's a late task (not yet started)
-!X! MON late task TUE (late task, completed)
-/// remember this
+# key
 
-# Also, there typically are three sections, listed in order of priority:
+    [ ] task pending planned
+    [%] some percentage done
+    [*] in progress right now
+    [?] stalled (by lack of info)
+    [.] paused (by me)
+    [:] blocked (by external condition)
+    { } optional/stretch goal
+    [x] done
+    [+] added and done
+    [>] bumped to next week
+    [-] removed
+    [/] failed
+    /// note
+    [x] MON task (scheduled/done on MONDAY)
+    [x] MON task TUE (scheduled mon, done tue)
+    [2] x5 task (repeated twice so far)
+    [5] x5 task (successful)
+    !!! late-task (not started)
+    !x! MON late-task TUE (was late, completed)
 
-[X] most-important task for week
-[ ] most-important task for week
-...
-[X] important project task (sometimes scheduled)
-[X] important project task (sometimes scheduled)
-...
-[ ] MON scheduled task/obligation
-[ ] TUE scheduled task/obligation
+    Week XX Date N-M
+    [x] most important ~~~ (25-minute pomodoro blocks)
+    [ ] major task ''' (50-minute pomodoro blocks)
+    ...
+    [ ] important project task
+    [ ] minor project task (sometimes scheduled)
+    ...
+    [ ] MON scheduled task/obligation
+    [ ] TUE calendar event
+
+# references
+
+- DS|CAFE:  https://davidseah.com/join-ds-cowork
+- Getting Results: http://gettingresults.com
