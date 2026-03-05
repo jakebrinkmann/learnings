@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architecture/architecture_engineering-blueprint.md",
+                "file": "gemini-scribe/Prompts/example-expert.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "architecture_engineering-blueprint"
+              "title": "example-expert"
             }
           }
         ]
@@ -150,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of domain-driven-design_DomainDrivenDesign"
             }
+          },
+          {
+            "id": "01f2a9f303520f0c",
+            "type": "leaf",
+            "state": {
+              "type": "gemini-agent-view",
+              "state": {},
+              "icon": "sparkles",
+              "title": "Agent Mode"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 478.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,13 +176,32 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
   "active": "490db197381c8d80",
   "lastOpenFiles": [
+    "Home.md",
+    "process/README.md",
+    "qa/README.md",
+    "note-taking/README.md",
+    "skeletons/README.md",
+    "workstation/README.md",
+    "sdlc/README.md",
+    "devops/README.md",
+    "frontend/README.md",
+    "backend/README.md",
+    "architecture/README.md",
+    "architecture/domain-driven-design_Workflows.md",
+    "gemini-scribe/Agent-Sessions",
     "architecture/domain-driven-design_DomainDrivenDesign.md",
-    "Pasted image 20260305122630.png",
-    "architecture/architecture_engineering-blueprint.md"
+    "architecture/domain-driven-design_domain.md",
+    "gemini-scribe/Prompts/example-expert.md",
+    "gemini-scribe/Prompts",
+    "gemini-scribe",
+    "architecture/domain-driven-design_DDDREBOOT.md",
+    "architecture/architecture_engineering-blueprint.md",
+    "Pasted image 20260305122630.png"
   ]
 }
