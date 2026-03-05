@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "28a5d229f4fab124",
+    "type": "split",
+    "children": [
+      {
+        "id": "344d632f69e15b35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "490db197381c8d80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "architecture/architecture_engineering-blueprint.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "architecture_engineering-blueprint"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9039c1eee9f2cabc",
+    "type": "split",
+    "children": [
+      {
+        "id": "bfe477e98cc4d5ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3c5f605a2f07f8e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0382d8ddf40a0fcb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "37e422fef34b0fe4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b9305c12c35c0767",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ac956b4a6fbe1c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e04f4966ffea2985",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "architecture/domain-driven-design_DomainDrivenDesign.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for domain-driven-design_DomainDrivenDesign"
+            }
+          },
+          {
+            "id": "b5414816a57d5c47",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "architecture/domain-driven-design_DomainDrivenDesign.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from domain-driven-design_DomainDrivenDesign"
+            }
+          },
+          {
+            "id": "3e40d55583f25a69",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "25a86306354b85cc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "architecture/domain-driven-design_DomainDrivenDesign.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of domain-driven-design_DomainDrivenDesign"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "490db197381c8d80",
+  "lastOpenFiles": [
+    "architecture/domain-driven-design_DomainDrivenDesign.md",
+    "Pasted image 20260305122630.png",
+    "architecture/architecture_engineering-blueprint.md"
+  ]
+}

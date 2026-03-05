@@ -24,7 +24,7 @@ Contribute to the evolution (refactor) of the business (just like technical impl
     - Channels
     - Cost Structure
     - Revenue Streams
-
+![[Pasted image 20260305122630.png]]
 # Theory of Constraints
 
 - Identify the "system constraint" or bottleneck
@@ -41,6 +41,6 @@ Contribute to the evolution (refactor) of the business (just like technical impl
 # Replacement, not reuse
 
 - Build isolated subdomain models for replacement, not reuse
-- Don't rush to put concrete boundarie in (avoid precision in early iterations)
+- Don't rush to put concrete boundaries in (avoid precision in early iterations)
 - Strive for CLEAN BOUNDARIES, not perfect models
 - "business capability ownership boundaries"
