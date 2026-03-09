@@ -1,3 +1,6 @@
+---
+tags: "[workstation, llm, jupyter]"
+---
 # ABOUTME: This file explains how to set up a developer workstation with Jupyter notebooks and the llm CLI tool.
 # ABOUTME: It is a step-by-step tutorial.
 

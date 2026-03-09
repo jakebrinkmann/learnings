@@ -1,3 +1,6 @@
+---
+tags: "[llm, hackathon]"
+---
 # Let's hack on `llm`!
 
 If you have [uv](https://docs.astral.sh/uv/) installed (and you should!), you can install [llm](https://llm.datasette.io/en/stable/) globally in a `uv`-managed tool environment with:

@@ -1,4 +1,0 @@
-
-# Frameworks
-
-- [Diátaxis](Diátaxis.mkd)

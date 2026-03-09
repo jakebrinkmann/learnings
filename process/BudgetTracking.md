@@ -1,6 +1,0 @@
-- Planned
-- Delivered
-- Change-Requests
-- Defects
-- Technical Debts
-- ACTUAL
