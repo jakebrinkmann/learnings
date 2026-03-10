@@ -17,7 +17,7 @@ tags: [architecture, ddd, discovery, agile]
 - 🟨 **Yellow**: `Aggregate` (State boundary: `Order`)
 - 🟪 **Purple**: `Policy` (Reactive rule: "When X, do Y")
 - 🟩 **Green**: `Read Model` (Data for UI/decisions)
-- 👤 **Small Yellow**: `Actor` (User role)
+- 👤 **Cyan**: `Actor` (User role)
 - 🩷 **Pink**: `External System` (Stripe, Salesforce)
 - 🟥 **Red**: `Hotspot` (Conflict, risk, unknown, disagreement)
 

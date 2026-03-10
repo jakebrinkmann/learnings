@@ -1,5 +1,7 @@
 ---
-tags: "[architecture, ddd]"
+tags:
+  - architecture
+  - ddd
 ---
 # Value Objects & Code Level DDD
 

@@ -1,5 +1,7 @@
 ---
-tags: "[architecture, ddd]"
+tags:
+  - architecture
+  - ddd
 ---
 # Discovery Tools
 
