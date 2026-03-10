@@ -54,9 +54,11 @@ Here is a breakdown of the best tools to stitch the entire Domain-Driven Design 
 * **Model vs. View:** Define the architecture in the DSL. If you rename a service, *every single diagram* updates automatically.
 * **Reusable Layouts & Local Validation:** Extract shared layout instructions into dedicated template files and `!include` them in every view so you don't have to manually arrange boxes. Encourage contributors to run **Structurizr Lite** locally to catch layout issues before submitting a PR.
 * **ADRs and NFRs:** Link Architecture Decision Records directly to the elements they affect via properties and tags.
+* **Practical Implementation:** See the [[Structurizr-CLI-Kata]] for a step-by-step guide on setting up this exact repository structure, writing the DSL, and running the CI/CD validations.
 
 ### 3. Business Goals to Tech Mapping: Archi (ArchiMate)
 * **Motivation & Strategy Layers:** Map specific Business Goals down to the Application Components that satisfy them. Archi uses **Derived Relationships** to automatically calculate indirect impacts (e.g., tracing a server failure up to a disrupted business process).
+* **Understanding the Scope:** See [[Enterprise-Architecture-Layers]] for a breakdown of why ArchiMate is used for full-stack traceability (from corporate initiatives down to physical servers), whereas C4/Structurizr is preferred for day-to-day DDD software design.
 * **Red-Lining via coArchi:** The **coArchi plugin** stores the ArchiMate model in Git as granular XML files.
 * **Preventing Merge Conflicts:** Concurrent edits to the same diagram in coArchi can cause severe XML merge conflicts. Assign clear ownership over specific elements and diagrams to prevent simultaneous modifications.
 

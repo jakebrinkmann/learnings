@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architecture/Tooling/Architecture-as-Code.md",
+                "file": "architecture/Tooling/Structurizr-CLI-Kata.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Architecture-as-Code"
+              "title": "Structurizr-CLI-Kata"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b9305c12c35c0767",
@@ -167,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 725.5
+    "width": 725.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,19 +181,21 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "01f2a9f303520f0c",
+  "active": "fbcf9606f95080e6",
   "lastOpenFiles": [
-    ":w",
-    "architecture/DDD/Context-Mapping-Patterns.md",
     "architecture/Tooling/Architecture-as-Code.md",
-    "architecture/Tooling",
-    "architecture/DDD/Subdomain-Distillation.md",
-    "architecture/DDD/Context-Maps.md",
-    "architecture/DDD/Cross-Context-Integration.md",
+    "architecture/Tooling/Structurizr-CLI-Kata.md",
     "architecture/DDD/Modeling-and-Workflows.md",
     "architecture/DDD/Event-Storming-Facilitation.md",
-    "architecture/DDD/Discovery-Tools.md",
     "architecture/DDD/Aggregates-and-Entities.md",
+    "architecture/DDD/Context-Mapping-Patterns.md",
+    "architecture/DDD/Context-Maps.md",
+    "architecture/DDD/Cross-Context-Integration.md",
+    "architecture/DDD/Discovery-Tools.md",
+    "architecture/Tooling/Enterprise-Architecture-Layers.md",
+    ":w",
+    "architecture/Tooling",
+    "architecture/DDD/Subdomain-Distillation.md",
     "architecture/DDD/Physical-vs-Conceptual-Boundaries.md",
     "architecture/DDD/Shared-Core-Subdomain.md",
     "gemini-scribe/Agent-Sessions/DDD Subdomains and Boundaries.md",
@@ -213,7 +215,6 @@
     "Notes",
     "Home.md",
     "gemini-scribe/AGENTS.md",
-    "Knowledge-Quick-Reference.md",
     "gemini-scribe/example-prompts.json",
     "architecture/DDD",
     "gemini-scribe/Agent-Sessions",
