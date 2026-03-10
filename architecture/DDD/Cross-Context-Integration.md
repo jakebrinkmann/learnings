@@ -5,12 +5,25 @@ tags: [architecture, ddd, integration, backend]
 
 Decoupling Bounded Contexts via **Eventual Consistency** and **Async Messaging**.
 
-### 1. Domain Events (Choreography)
-- **Flow**: Context A emits `Event` -> Context B reacts.
-- **Pros**: Highly decoupled.
+### 1. Operational Requests vs. Operational Events
+When Context A needs to interact with Context B, you must distinguish between Commands (Requests) and Facts (Events).
+
+*   **Operational Requests (Commands)**
+    *   **Pattern**: Customer-Supplier (Synchronous API or Async Command Queue)
+    *   **Intent**: Context A is *asking* Context B to do something explicitly (e.g., `ChargeCreditCard`).
+    *   **Coupling**: Higher. Context A needs to know Context B exists and what its API looks like.
+
+*   **Operational Events (Facts)**
+    *   **Pattern**: Publish-Subscribe (Choreography)
+    *   **Intent**: Context A is broadcasting that something happened in the past (e.g., `OrderPlaced`). It doesn't care who is listening.
+    *   **Coupling**: Lower. Context A is completely decoupled from downstream consumers.
+
+### 2. Domain Events (Choreography)
+- **Flow**: Context A emits `Event` (Operational Event) -> Context B reacts.
+- **Pros**: Highly decoupled (Publish-Subscribe).
 - **Cons**: Implicit flow, hard to monitor overall process.
 
-### 2. Transactional Outbox Pattern
+### 3. Transactional Outbox Pattern
 Solves the "Dual Write" problem (DB vs Message Broker).
 
 ```text
@@ -22,8 +35,8 @@ Solves the "Dual Write" problem (DB vs Message Broker).
   4. Mark Outbox row as processed
 ```
 
-### 3. Sagas / Process Managers (Orchestration)
-Central coordinator for distributed workflows requiring compensating actions.
+### 4. Sagas / Process Managers (Orchestration)
+Central coordinator for distributed workflows requiring compensating actions. Often mixes Operational Events (listening to facts) and Operational Requests (issuing commands).
 
 ```fsharp
 // Saga reacting to events and issuing cross-context commands
@@ -37,7 +50,7 @@ let handleSaga event =
 - **Pros**: Explicit workflow, easy failure handling.
 - **Cons**: Centralized coupling point.
 
-### 4. CQRS (Command Query Responsibility Segregation)
+### 5. CQRS (Command Query Responsibility Segregation)
 Separate Write Side from Read Side to optimize cross-context queries.
 
 ```plantuml
