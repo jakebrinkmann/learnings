@@ -181,8 +181,9 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "fbcf9606f95080e6",
+  "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
+    ":w",
     "architecture/DDD/Context-Mapping-Patterns.md",
     "architecture/Tooling/Architecture-as-Code.md",
     "architecture/Tooling",
@@ -213,7 +214,6 @@
     "Home.md",
     "gemini-scribe/AGENTS.md",
     "Knowledge-Quick-Reference.md",
-    "gemini-scribe/Agent-Sessions/Knowledge Quick Reference.md",
     "gemini-scribe/example-prompts.json",
     "architecture/DDD",
     "gemini-scribe/Agent-Sessions",
