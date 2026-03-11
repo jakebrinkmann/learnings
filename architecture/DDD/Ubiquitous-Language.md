@@ -1,12 +1,23 @@
 ---
 tags: [architecture, ddd, ubiquitous-language, anti-pattern]
 ---
-# The Translation Trap
+# Ubiquitous Language
 
-The **Translation Trap** occurs when a system violates the first rule of Domain-Driven Design: **Never mix languages that represent different business mental models.**
+**Ubiquitous Language** is a foundational concept in Domain-Driven Design (DDD). It refers to the practice of building up a common, rigorous language between developers, domain experts, and stakeholders.
+
+This vocabulary is used everywhere—in conversations, requirements, documentation, and the actual code (class names, methods, variables).
+
+### The First Rule of DDD
+**Never mix languages that represent different business mental models.** Each [[Context-Maps|Bounded Context]] must govern its own independent Ubiquitous Language.
+
+---
+
+## Anti-Pattern: The Translation Trap
+
+The **Translation Trap** occurs when a system violates this first rule by forcing distinct domains into a single conceptual space, causing their vocabularies to collide. 
 
 ### Mixing Semantic Universes
-When distinct domains are forced into a single conceptual space, their vocabularies collide. For example, mixing:
+For example, a system might improperly mix:
 - **Manufacturing semantics:** *Work Orders, Laser Operations, Form 2*
 - **3PL Logistics semantics:** *Partner Orders, Drop-Ship Fees, All-in SKUs*
 - **Distribution semantics:** *Item Fulfillment, Bulk Shipment*
