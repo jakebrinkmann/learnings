@@ -20,7 +20,7 @@ This workflow defines our end-to-end architectural lifecycle. It is structured a
   - **Supporting**: Essential / **BUILD or BUY** (cheaply).
   - **Generic**: Standard / **BUY or OUTSOURCE** (SaaS).
 - **Map the Motivation Layer** (See: [[Enterprise-Architecture-Layers]])
-  - Use ArchiMate "Motivation" elements to answer *WHY* before building (Goals, Drivers, Requirements).
+  - Use "Motivation" elements to answer *WHY* before building (Goals, Drivers, Requirements).
 - **Align Organizational Topology (Conway's Law)**
   - **The Golden Rule:** Every subdomain maps to one or more Bounded Contexts. Every Bounded Context MUST map to its own autonomous repository (or strict module boundary) with runtime independence.
   - **Chain of Alignment:** Subdomains → Bounded Contexts → Team Boundaries → Deployment Units.

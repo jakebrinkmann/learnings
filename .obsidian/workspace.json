@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 725.5
+    "width": 725.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,11 +182,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f3c5f605a2f07f8e",
+  "active": "fbcf9606f95080e6",
   "lastOpenFiles": [
-    "architecture/Tooling/Architecture-as-Code.md",
+    "architecture/Tooling/Enterprise-Architecture-Layers.md",
     "architecture/Architecture-Workflow-Cheat-Sheet.md",
     "architecture/DDD/Subdomain-Distillation.md",
+    "architecture/Tooling/Architecture-as-Code.md",
     "gemini-scribe/Agent-Sessions/Architecture-as-Code Framework.md",
     "gemini-scribe/AGENTS.md",
     "gemini-scribe/example-prompts.json",
@@ -199,7 +201,6 @@
     "architecture/DDD/Context-Maps.md",
     "architecture/DDD/Cross-Context-Integration.md",
     "architecture/DDD/Discovery-Tools.md",
-    "architecture/Tooling/Enterprise-Architecture-Layers.md",
     ":w",
     "architecture/Tooling",
     "architecture/DDD/Physical-vs-Conceptual-Boundaries.md",
