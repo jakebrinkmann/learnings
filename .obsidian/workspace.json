@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architecture/Tooling/Architecture-as-Code.md",
+                "file": "gemini-scribe/AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Architecture-as-Code"
+              "title": "AGENTS"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,13 +181,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fbcf9606f95080e6",
+  "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
+    "architecture/Architecture-Workflow-Cheat-Sheet.md",
+    "architecture/Tooling/Architecture-as-Code.md",
     "architecture/DDD/Ubiquitous-Language.md",
     "architecture/DDD/Physical-vs-Conceptual-Boundaries.md",
-    "architecture/Architecture-Workflow-Cheat-Sheet.md",
     "gemini-scribe/Agent-Sessions/Architecture-as-Code Framework.md",
-    "architecture/Tooling/Architecture-as-Code.md",
     "Notes/arc42.md",
     "architecture/DDD/Event-Storming-Facilitation.md",
     "architecture/Tooling/Enterprise-Architecture-Layers.md",
