@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gemini-scribe/AGENTS.md",
+                "file": "architecture/Tooling/Structurizr-CLI-Kata.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AGENTS"
+              "title": "Structurizr-CLI-Kata"
             }
           }
         ]
@@ -183,7 +183,9 @@
   },
   "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
+    "gemini-scribe/Agent-Sessions/Agent Session 3-11-2026.md",
     "architecture/Architecture-Workflow-Cheat-Sheet.md",
+    "gemini-scribe/AGENTS.md",
     "architecture/Tooling/Architecture-as-Code.md",
     "architecture/DDD/Ubiquitous-Language.md",
     "architecture/DDD/Physical-vs-Conceptual-Boundaries.md",
@@ -192,7 +194,6 @@
     "architecture/DDD/Event-Storming-Facilitation.md",
     "architecture/Tooling/Enterprise-Architecture-Layers.md",
     "architecture/DDD/Subdomain-Distillation.md",
-    "gemini-scribe/AGENTS.md",
     "gemini-scribe/example-prompts.json",
     "gemini-scribe/Agent-Sessions",
     "gemini-scribe/skills",
@@ -216,7 +217,6 @@
     "Untitled.base",
     "2026-03-09.md",
     "Untitled.canvas",
-    "gemini-scribe/Agent-Sessions/Enterprise DDD Readiness Evaluation.md",
     "Notes",
     "architecture/DDD",
     "gemini-scribe/Prompts",
