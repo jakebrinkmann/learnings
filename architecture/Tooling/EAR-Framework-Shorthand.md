@@ -13,10 +13,24 @@ tags:
 
 ## 1. The 3-File Core (Per Domain)
 *Procedural configs (YAML) banned. Math > Docs.*
-* **`domain.fs`** -> **The Truth.** F# Discriminated Unions. `State + Command = [Events] + New State`.
-* **`context.dsl`** -> **The Structure.** Pure Structurizr fragment. NO `workspace {}` wrappers.
-* **`README.md`** -> **The Business.** Actor catalog, invariants, Use Cases -> Commands, AC traceability.
-* *Rule:* Must have linked Gherkin `.feature` in `/specs` with Arch IDs (e.g., `@BC-PAYMENT-001`).
+
+| File | Role | Purpose & Contents |
+|------|------|--------------------|
+| **`domain.fs`** | **The Truth** | F# Discriminated Unions (Events, Workflows). `State + Command = [Events] + New State`. |
+| **`context.dsl`** | **The Structure** | Pure Structurizr fragment. NO `workspace {}` wrappers. |
+| **`README.md`** | **The Business** | Actor catalog, invariants, Use Cases -> Commands, AC traceability (Business projection). |
+
+*Rule:* Must have linked Gherkin `.feature` in `/specs` with Arch IDs (e.g., `@BC-PAYMENT-001`).
+
+### System Assembly & Validation
+*(How the domain core wires into the global topology)*
+
+| File / Command | Purpose |
+|----------------|---------|
+| **`dotnet fsi --exec domain.fs`** | Lightweight Step 1: Validate F# syntax and type-check domain logic without needing a `.fsproj`. |
+| **`enterprise-landscape.dsl`** | Wired landscape (systems & people). Pure fragment. |
+| **`workspace.dsl`** | Container view & master aggregator (The ONLY workspace). |
+| **`structurizr validate`** | Final gate check to validate the compiled architecture. |
 
 ## 2. Topology (Master Aggregator)
 * **`workspace.dsl`** -> **The ONLY workspace.** Owns `workspace`, `model`, `views` blocks.

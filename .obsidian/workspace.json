@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architecture/DDD/Cross-Context-Integration.md",
+                "file": "architecture/Tooling/EAR-Framework-Shorthand.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cross-Context-Integration"
+              "title": "EAR-Framework-Shorthand"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ubiquitous",
+                "query": "domain.fs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,11 +88,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b9305c12c35c0767",
@@ -180,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 725.5,
-    "collapsed": true
+    "width": 725.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,6 +199,11 @@
   },
   "active": "fbcf9606f95080e6",
   "lastOpenFiles": [
+    "gemini-scribe/Agent-Sessions/Automated EAR Audit & Structurizr Refactor.md",
+    "Systems Thinking and Conceptual Integrity.md",
+    "Home.md",
+    "architecture/DDD/Cross-Context-Integration.md",
+    "gemini-scribe/Agent-Sessions/Systems Thinking & Conceptual Integrity.md",
     "architecture/DDD/Context-Mapping-Patterns.md",
     "architecture/DDD/Aggregates-and-Entities.md",
     "engineering/AI-Agents/Principal-Architect-Agent-Prompt.md",
@@ -220,7 +226,6 @@
     "writing",
     "AGENTS.md",
     "architecture/Tooling/Structurizr-CLI-Kata.md",
-    "gemini-scribe/Agent-Sessions/Automated EAR Audit & Structurizr Refactor.md",
     "gemini-scribe/Agent-Sessions/Agent Session 3-11-2026.md",
     "architecture/Architecture-Workflow-Cheat-Sheet.md",
     "gemini-scribe/AGENTS.md",
@@ -230,10 +235,6 @@
     "gemini-scribe/Agent-Sessions/Architecture-as-Code Framework.md",
     "architecture/arc42.md",
     "architecture/DDD/Event-Storming-Facilitation.md",
-    "architecture/Tooling/Enterprise-Architecture-Layers.md",
-    "architecture/DDD/Subdomain-Distillation.md",
-    "architecture/DDD/Modeling-and-Workflows.md",
-    "architecture/DDD/Context-Maps.md",
     "Pasted image 20260305122630.png",
     "Untitled.canvas"
   ]
