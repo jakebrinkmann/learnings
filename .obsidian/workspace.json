@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "engineering/AI-Agents/Principal-Architect-Agent-Prompt.md",
+                "file": "architecture/DDD/Cross-Context-Integration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Principal-Architect-Agent-Prompt"
+              "title": "Cross-Context-Integration"
             }
           },
           {
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 725.5
+    "width": 725.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,8 +196,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f3c5f605a2f07f8e",
+  "active": "fbcf9606f95080e6",
   "lastOpenFiles": [
+    "architecture/DDD/Context-Mapping-Patterns.md",
+    "architecture/DDD/Aggregates-and-Entities.md",
+    "engineering/AI-Agents/Principal-Architect-Agent-Prompt.md",
+    "engineering/AI-Agents/llm-hackathon.md",
+    "engineering/AI-Agents/jupyter-llm-setup.md",
+    "engineering/Cloud/aws_CognitoJWT.md",
+    "management/LogsFriction.md",
     "engineering/Tools",
     "engineering/Observability",
     "engineering/Testing",
@@ -208,10 +216,8 @@
     "architecture/Tooling/Structurizr-Multi-File-Patterns.md",
     "architecture/Tooling/EAR-Framework-Shorthand.md",
     "Gemini-Copilot Conversation.md",
-    "engineering/AI-Agents/Principal-Architect-Agent-Prompt.md",
     "engineering/AI-Agents",
     "writing",
-    "journal",
     "AGENTS.md",
     "architecture/Tooling/Structurizr-CLI-Kata.md",
     "gemini-scribe/Agent-Sessions/Automated EAR Audit & Structurizr Refactor.md",
@@ -227,12 +233,7 @@
     "architecture/Tooling/Enterprise-Architecture-Layers.md",
     "architecture/DDD/Subdomain-Distillation.md",
     "architecture/DDD/Modeling-and-Workflows.md",
-    "architecture/DDD/Aggregates-and-Entities.md",
-    "architecture/DDD/Context-Mapping-Patterns.md",
     "architecture/DDD/Context-Maps.md",
-    "architecture/DDD/Cross-Context-Integration.md",
-    "architecture/DDD/Discovery-Tools.md",
-    "architecture/DDD/Shared-Core-Subdomain.md",
     "Pasted image 20260305122630.png",
     "Untitled.canvas"
   ]
