@@ -67,8 +67,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "domain.fs",
-                "matchingCase": false,
+                "query": "DU",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b9305c12c35c0767",
@@ -199,6 +198,9 @@
   },
   "active": "fbcf9606f95080e6",
   "lastOpenFiles": [
+    "Gemini-Copilot Conversation.md",
+    "management/SDLC-Model.md",
+    "architecture/Tooling/EAR-Framework-Shorthand.md",
     "gemini-scribe/Agent-Sessions/Automated EAR Audit & Structurizr Refactor.md",
     "Systems Thinking and Conceptual Integrity.md",
     "Home.md",
@@ -220,8 +222,6 @@
     "engineering/Frontend",
     "engineering/API",
     "architecture/Tooling/Structurizr-Multi-File-Patterns.md",
-    "architecture/Tooling/EAR-Framework-Shorthand.md",
-    "Gemini-Copilot Conversation.md",
     "engineering/AI-Agents",
     "writing",
     "AGENTS.md",
@@ -234,7 +234,6 @@
     "architecture/DDD/Physical-vs-Conceptual-Boundaries.md",
     "gemini-scribe/Agent-Sessions/Architecture-as-Code Framework.md",
     "architecture/arc42.md",
-    "architecture/DDD/Event-Storming-Facilitation.md",
     "Pasted image 20260305122630.png",
     "Untitled.canvas"
   ]

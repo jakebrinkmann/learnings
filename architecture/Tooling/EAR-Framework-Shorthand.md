@@ -22,6 +22,19 @@ tags:
 
 *Rule:* Must have linked Gherkin `.feature` in `/specs` with Arch IDs (e.g., `@BC-PAYMENT-001`).
 
+### Terminology: What is a DU (Discriminated Union)?
+In F#, a **Discriminated Union (DU)** is a data structure used to model mutually exclusive states, events, or commands. It is the secret weapon for Domain-Driven Design (DDD) because it enforces *mathematical completeness*.
+
+Instead of using easily misspelled strings (`"Pending"`) or ambiguous integers (`1`), a DU strictly defines the *only* possible states:
+```fsharp
+type SubmissionStatus = 
+    | Pending 
+    | Approved 
+    | Rejected
+```
+**Why it matters (Exhaustive Pattern Matching):**
+When writing logic to handle a state like `SubmissionStatus`, the F# compiler forces the developer (or AI agent) to handle *every single state*. If a new state is added to the DU later (e.g., `| NeedsReview`), the compiler will instantly break and flag every place in the codebase that forgot to handle it. This prevents "ghost states," makes illegal states unrepresentable, and ensures your domain model is a strict, mathematical state machine.
+
 ### System Assembly & Validation
 *(How the domain core wires into the global topology)*
 
