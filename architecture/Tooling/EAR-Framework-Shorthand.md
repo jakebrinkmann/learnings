@@ -41,3 +41,8 @@ tags:
 ## 4. ADR Rigor
 * **Format:** Context -> Y-Statement -> Decision -> Consequences -> Enforcement.
 * **Y-Statement Syntax:** *"In context of [A], facing [B], decided for [C], neglected [D], to achieve [E], accepting [F]."*
+
+## 5. Detailed Deep-Dives
+For the specific compiler quirks and agent prompts required to execute this framework, see:
+* [[Structurizr-Multi-File-Patterns]] - How to solve namespace collisions, linear parser issues, and scope locks.
+* [[Principal-Architect-Agent-Prompt]] - The exact prompt workflows (Historian, DevOps, Handoff) for AI agents.
