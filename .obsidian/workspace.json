@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architecture/Tooling/EAR-Framework-Shorthand.md",
+                "file": "architecture/Model-Driven-Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EAR-Framework-Shorthand"
+              "title": "Model-Driven-Engineering"
             }
           },
           {
@@ -196,13 +196,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "01f2a9f303520f0c",
+  "active": "fbcf9606f95080e6",
   "lastOpenFiles": [
+    "architecture/Code-Property-Graphs.md",
+    "architecture/Formal-Methods.md",
+    "architecture/Tooling/EAR-Framework-Shorthand.md",
+    "architecture/Mathematical-Frameworks.md",
+    "architecture/Runtime-Domain-Mapping.md",
+    "architecture/Model-Driven-Engineering.md",
     "gemini-scribe/Agent-Sessions/Knowledge Base Check- Unified Software Systems.md",
     "engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
     "gemini-scribe/Agent-Sessions/Distilling to Essential Short-Hand.md",
     "engineering/AI-Agents/Principal-Architect-Agent-Prompt.md",
-    "architecture/Tooling/EAR-Framework-Shorthand.md",
     "gemini-scribe/Agent-Sessions/AI Agent Architecture Consolidation.md",
     "Gemini-Copilot Conversation.md",
     "management/SDLC-Model.md",
@@ -229,11 +234,6 @@
     "engineering/AI-Agents",
     "writing",
     "AGENTS.md",
-    "architecture/Tooling/Structurizr-CLI-Kata.md",
-    "gemini-scribe/Agent-Sessions/Agent Session 3-11-2026.md",
-    "architecture/Architecture-Workflow-Cheat-Sheet.md",
-    "gemini-scribe/AGENTS.md",
-    "architecture/Tooling/Architecture-as-Code.md",
     "Pasted image 20260305122630.png",
     "Untitled.canvas"
   ]
