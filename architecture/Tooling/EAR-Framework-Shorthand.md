@@ -35,6 +35,60 @@ type SubmissionStatus =
 **Why it matters (Exhaustive Pattern Matching):**
 When writing logic to handle a state like `SubmissionStatus`, the F# compiler forces the developer (or AI agent) to handle *every single state*. If a new state is added to the DU later (e.g., `| NeedsReview`), the compiler will instantly break and flag every place in the codebase that forgot to handle it. This prevents "ghost states," makes illegal states unrepresentable, and ensures your domain model is a strict, mathematical state machine.
 
+### Code Templates (The MERA Pattern)
+This is the standard shorthand structure that AI agents should use to generate the 3-File Core.
+
+**`domain.fs`**
+```fsharp
+// ABOUTME: Behavioral state machine for [Context Name]
+type Command = 
+    | Submit of Payload
+    | Cancel of Reason
+
+type Event = 
+    | Submitted of Payload
+    | Cancelled of Reason
+
+type State = 
+    | Initial
+    | Processing of Payload
+    | Completed
+```
+
+**`context.dsl`**
+```dsl
+// ABOUTME: Structural topology mapping to MERA pattern
+// MERA = Manager, Engine, Resource, Accessor
+container "Manager" { 
+    description "Orchestrates workflows and handles external triggers"
+    technology "C# / .NET API"
+}
+container "Engine" { 
+    description "Pure domain logic and state machine (domain.fs)"
+    technology "F#"
+}
+container "Resource" {
+    description "State persistence"
+    technology "SQL Database"
+}
+container "Accessor" {
+    description "Integration with external systems"
+    technology "Anti-Corruption Layer"
+}
+```
+
+**`specs/[context].feature`**
+```gherkin
+# ABOUTME: Executable specifications for validation
+Feature: [Context Name] State Machine
+
+  Scenario: [Successful Outcome]
+    Given [Initial State]
+    When [Command]
+    Then [Events Raised]
+    And [New State Reached]
+```
+
 ### System Assembly & Validation
 *(How the domain core wires into the global topology)*
 
