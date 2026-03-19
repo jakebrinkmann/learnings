@@ -5,26 +5,35 @@ tags: [architecture, ddd, integration, backend]
 
 Decoupling Bounded Contexts via **Eventual Consistency** and **Async Messaging**.
 
-### 1. Operational Requests vs. Operational Events
-When Context A needs to interact with Context B, you must distinguish between Commands (Requests) and Facts (Events).
+### 1. Commands vs. Facts
+Strictly distinguish between asking for an action (Command) and announcing a truth (Fact).
 
-*   **Operational Requests (Commands)**
-    *   **Pattern**: Customer-Supplier (Synchronous API or Async Command Queue)
-    *   **Intent**: Context A is *asking* Context B to do something explicitly (e.g., `ChargeCreditCard`).
-    *   **Coupling**: Higher. Context A needs to know Context B exists and what its API looks like.
+*   **Commands ("Please do X")**:
+    *   **Intent**: Explicit request. Receiver can say "No" (e.g., HTTP 400).
+    *   **Coupling**: High. Sender must know the receiver and its API.
+*   **Facts / Events ("X happened")**:
+    *   **Intent**: Historical truth. Sender doesn't care who listens.
+    *   **Coupling**: Low. Pure publish-subscribe.
+    *   **⚠️ THE BOUNDARY RULE**: A context can *only* emit facts about itself. It cannot emit events declaring state changes in other contexts.
 
-*   **Operational Events (Facts)**
-    *   **Pattern**: Publish-Subscribe (Choreography)
-    *   **Intent**: Context A is broadcasting that something happened in the past (e.g., `OrderPlaced`). It doesn't care who is listening.
-    *   **Coupling**: Lower. Context A is completely decoupled from downstream consumers.
+### 2. The Uptime Dependency Test (Sync vs. Async)
+Decide communication style based on whether the caller *must* share an outage with the receiver.
 
-### 2. Domain Events (Choreography)
-- **Flow**: Context A emits `Event` (Operational Event) -> Context B reacts.
-- **Pros**: Highly decoupled (Publish-Subscribe).
-- **Cons**: Implicit flow, hard to monitor overall process.
+*   **Async Events (Internal Context-to-Context)**: 
+    *   **Rule**: Use when contexts shouldn't share an outage (avoiding Temporal Coupling). 
+    *   **Why**: Sender finishes instantly; receiver catches up when online. No cascading failures.
+*   **Sync APIs (External Client-to-Context)**: 
+    *   **Rule**: Use when the caller *must* know if the action succeeded.
+    *   **Why**: External clients need direct success/fail feedback (e.g., HTTP 200) to manage their own local state and retries.
 
-### 3. Transactional Outbox Pattern
-Solves the "Dual Write" problem (DB vs Message Broker).
+### 3. The "Distributed Transaction" Trap
+**⚠️ RULE**: NEVER use a Synchronous API if a single user action writes to two different Bounded Contexts simultaneously. A mid-flight network drop creates orphaned state.
+
+#### The Fix: Transactional Outbox Pattern
+Guarantees eventual consistency without distributed transactions.
+
+1. **Atomic Local Write**: Save Aggregate state AND Domain Event to a local Outbox table in one DB transaction.
+2. **Async Publish**: A background worker polls/streams the Outbox and safely publishes the event to the broker.
 
 ```text
 [Transaction Boundary]
@@ -35,7 +44,12 @@ Solves the "Dual Write" problem (DB vs Message Broker).
   4. Mark Outbox row as processed
 ```
 
-### 4. Sagas / Process Managers (Orchestration)
+### 4. Domain Events (Choreography)
+- **Flow**: Context A emits `Event` (Operational Event) -> Context B reacts.
+- **Pros**: Highly decoupled (Publish-Subscribe).
+- **Cons**: Implicit flow, hard to monitor overall process.
+
+### 5. Sagas / Process Managers (Orchestration)
 Central coordinator for distributed workflows requiring compensating actions. Often mixes Operational Events (listening to facts) and Operational Requests (issuing commands).
 
 ```fsharp
@@ -50,7 +64,7 @@ let handleSaga event =
 - **Pros**: Explicit workflow, easy failure handling.
 - **Cons**: Centralized coupling point.
 
-### 5. CQRS (Command Query Responsibility Segregation)
+### 6. CQRS (Command Query Responsibility Segregation)
 Separate Write Side from Read Side to optimize cross-context queries.
 
 ```plantuml

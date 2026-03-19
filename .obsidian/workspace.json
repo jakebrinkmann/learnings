@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architecture/Tooling/EAR-Framework-Shorthand.md",
+                "file": "architecture/DDD/Cross-Context-Integration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EAR-Framework-Shorthand"
+              "title": "Cross-Context-Integration"
             }
           },
           {
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b9305c12c35c0767",
@@ -180,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 725.5,
-    "collapsed": true
+    "width": 725.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,12 +198,13 @@
   },
   "active": "fbcf9606f95080e6",
   "lastOpenFiles": [
+    "architecture/Tooling/EAR-Framework-Shorthand.md",
+    "gemini-scribe/Agent-Sessions/DDD- Sync APIs vs Async Events.md",
     "architecture/Tooling/Architecture-as-Code.md",
     "architecture/Model-Driven-Engineering.md",
     "architecture/Runtime-Domain-Mapping.md",
     "architecture/Code-Property-Graphs.md",
     "architecture/Formal-Methods.md",
-    "architecture/Tooling/EAR-Framework-Shorthand.md",
     "architecture/Mathematical-Frameworks.md",
     "gemini-scribe/Agent-Sessions/Knowledge Base Check- Unified Software Systems.md",
     "engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
@@ -231,7 +232,6 @@
     "engineering/Backend",
     "engineering/Frontend",
     "engineering/API",
-    "architecture/Tooling/Structurizr-Multi-File-Patterns.md",
     "engineering/AI-Agents",
     "writing",
     "Pasted image 20260305122630.png",
