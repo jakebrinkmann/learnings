@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architecture/Model-Driven-Engineering.md",
+                "file": "architecture/Tooling/EAR-Framework-Shorthand.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Model-Driven-Engineering"
+              "title": "EAR-Framework-Shorthand"
             }
           },
           {
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "b9305c12c35c0767",
@@ -181,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 725.5
+    "width": 725.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,12 +198,13 @@
   },
   "active": "fbcf9606f95080e6",
   "lastOpenFiles": [
+    "architecture/Tooling/Architecture-as-Code.md",
+    "architecture/Model-Driven-Engineering.md",
+    "architecture/Runtime-Domain-Mapping.md",
     "architecture/Code-Property-Graphs.md",
     "architecture/Formal-Methods.md",
     "architecture/Tooling/EAR-Framework-Shorthand.md",
     "architecture/Mathematical-Frameworks.md",
-    "architecture/Runtime-Domain-Mapping.md",
-    "architecture/Model-Driven-Engineering.md",
     "gemini-scribe/Agent-Sessions/Knowledge Base Check- Unified Software Systems.md",
     "engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
     "gemini-scribe/Agent-Sessions/Distilling to Essential Short-Hand.md",
@@ -233,7 +234,6 @@
     "architecture/Tooling/Structurizr-Multi-File-Patterns.md",
     "engineering/AI-Agents",
     "writing",
-    "AGENTS.md",
     "Pasted image 20260305122630.png",
     "Untitled.canvas"
   ]
