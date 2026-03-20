@@ -106,6 +106,10 @@ Feature: [Context Name] State Machine
   1. `workspace.dsl` -> `!include enterprise-landscape.dsl`
   2. Inside landscape systems -> `!include domains/.../context.dsl`
   3. Cross-context links (e.g., `api -> db`) defined in `workspace.dsl` model block.
+* **Required Views (`workspace.dsl`):**
+  * `container`: Standard view showing all containers.
+  * `component`: You MUST declare a component view for every Bounded Context's `Engine` container. This visualizes the F# Aggregates interacting within the Engine.
+  * `deployment`: You MUST map logical C4 containers to physical cloud infrastructure (e.g., Azure) so DevOps/SREs know where things run.
 * **The Gate:** ALWAYS run `structurizr validate -workspace workspace.dsl` after changes.
 
 ## 3. Agent Workflows (Prompts)
@@ -127,6 +131,7 @@ Feature: [Context Name] State Machine
 For the specific compiler quirks and agent prompts required to execute this framework, see:
 * [[Structurizr-Multi-File-Patterns]] - How to solve namespace collisions, linear parser issues, and scope locks.
 * [[Principal-Architect-Agent-Prompt]] - The exact prompt workflows (Historian, DevOps, Handoff) for AI agents.
+
 ## 6. Managing Time (The Strangler Pattern)
 We do not use "future-state" architecture branches. The `main` branch holds both the map of the swamp and the blueprint for the paved road.
 
@@ -139,3 +144,14 @@ We do not use "future-state" architecture branches. The `main` branch holds both
 * `Strangler`: Anti-Corruption Layers (ACLs) and sync agents that keep the Target and Sunset components synchronized during the transition phase.
 
 Views are generated dynamically by filtering these tags. If you are coding an ACL, tag it `Strangler`.
+
+## 7. The Docs-as-Code Pipeline (MkDocs Integration)
+The goal of the automated pipeline is to unify the 3-File Core into a single, interactive pane of glass for engineers.
+
+**The "Unified Page" Rule:**
+When generating the MkDocs site, the pipeline MUST weave together the following for each Bounded Context on the exact same page:
+1. **The Structure:** Structurizr Container/Component Mermaid diagrams (from `.diagrams/`).
+2. **The Rules:** The raw text or parsed steps of the Gherkin executable specs (from `/specs/*.feature`).
+3. **The Math:** The generated F# State Machine Mermaid diagrams (from `.diagrams/states/`).
+
+Do not isolate these into separate folders/pages. A developer should be able to look at the `OrderManagement` domain page and immediately see the C4 structure, the behavioral specs, and the mathematical state diagrams side-by-side.
