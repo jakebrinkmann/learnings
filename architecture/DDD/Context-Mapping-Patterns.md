@@ -49,3 +49,6 @@ package "Downstream (New Build)" {
 - Use **ACL** when integrating with legacy or third-party systems.
 - Use **OHS/PL** when you are the Core Domain exposing data to many consumers.
 - Avoid **Shared Kernel** unless the teams sit next to each other and pair program frequently.
+
+### Legacy Migration & Strangler Fig
+When replacing legacy systems, ACLs act as the physical "Strangler Vines" bridging the old and the new. For details on how to map and manage this transition using Architecture-as-Code, see [[Architecture-As-Code-Transitions]].

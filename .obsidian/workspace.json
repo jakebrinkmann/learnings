@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architecture/DDD/Cross-Context-Integration.md",
+                "file": "architecture/Tooling/EAR-Framework-Shorthand.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cross-Context-Integration"
+              "title": "EAR-Framework-Shorthand"
             }
           },
           {
@@ -198,6 +198,9 @@
   },
   "active": "fbcf9606f95080e6",
   "lastOpenFiles": [
+    "EAR-Framework-Shorthand.m.md",
+    "architecture/DDD/Architecture-As-Code-Transitions.md",
+    "architecture/DDD/Cross-Context-Integration.md",
     "architecture/Tooling/EAR-Framework-Shorthand.md",
     "gemini-scribe/Agent-Sessions/DDD- Sync APIs vs Async Events.md",
     "architecture/Tooling/Architecture-as-Code.md",
@@ -216,14 +219,11 @@
     "gemini-scribe/Agent-Sessions/Automated EAR Audit & Structurizr Refactor.md",
     "Systems Thinking and Conceptual Integrity.md",
     "Home.md",
-    "architecture/DDD/Cross-Context-Integration.md",
     "gemini-scribe/Agent-Sessions/Systems Thinking & Conceptual Integrity.md",
     "architecture/DDD/Context-Mapping-Patterns.md",
     "architecture/DDD/Aggregates-and-Entities.md",
     "engineering/AI-Agents/llm-hackathon.md",
     "engineering/AI-Agents/jupyter-llm-setup.md",
-    "engineering/Cloud/aws_CognitoJWT.md",
-    "management/LogsFriction.md",
     "engineering/Tools",
     "engineering/Observability",
     "engineering/Testing",

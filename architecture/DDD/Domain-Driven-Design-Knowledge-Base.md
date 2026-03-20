@@ -17,6 +17,7 @@ Based on the "DDD Reboot" concept:
 1. **Code Level**: [[DDD/Value-Objects|Value Objects & Code Smells]] - Building the domain with strong types.
 2. **Application Level**: [[architectures_Hexagonal|Hexagonal Architecture]] - Isolating the domain from infrastructure.
 3. **Enterprise Level**: [[DDD/Context-Maps|Context Maps & Bounded Contexts]] - Managing boundaries between systems.
+4. **Architecture-as-Code (AaC)**: [[DDD/Architecture-As-Code-Transitions|AaC Transitions & Strangler Fig]] - Managing legacy migrations and temporal architecture safely.
 
 ## References
 - [Domain Modeling Made Functional](https://github.com/swlaschin/DomainModelingMadeFunctional)

@@ -127,3 +127,15 @@ Feature: [Context Name] State Machine
 For the specific compiler quirks and agent prompts required to execute this framework, see:
 * [[Structurizr-Multi-File-Patterns]] - How to solve namespace collisions, linear parser issues, and scope locks.
 * [[Principal-Architect-Agent-Prompt]] - The exact prompt workflows (Historian, DevOps, Handoff) for AI agents.
+## 6. Managing Time (The Strangler Pattern)
+We do not use "future-state" architecture branches. The `main` branch holds both the map of the swamp and the blueprint for the paved road.
+
+* **`domain.fs`** = The Vision (Mathematically perfect Target State).
+* **`context.dsl`** = The Reality (Legacy + ACLs + Target).
+
+**Mandatory Structurizr Tags:**
+* `Sunset`: Legacy components marked for death (e.g., God Table).
+* `Target`: New, pristine DDD components.
+* `Strangler`: Anti-Corruption Layers (ACLs) and sync agents that keep the Target and Sunset components synchronized during the transition phase.
+
+Views are generated dynamically by filtering these tags. If you are coding an ACL, tag it `Strangler`.
