@@ -84,3 +84,10 @@ Bus -> [Read Model Builder] : 4. Consume
 User <-- ReadDB : 6. Query (Fast)
 @enduml
 ```
+
+### 7. Pristine Architectural Flow
+A clean system design strictly separates how different components interact with the Core Domain:
+
+*   **Peers (Internal Contexts)**: Emit asynchronous facts (Events). They do their job and broadcast the result (e.g., *Payment Processing*, *Inventory Management*).
+*   **External ACLs (Edge Agents / Clients)**: Dispatch synchronous commands (APIs). They need immediate success/fail feedback to manage local state and retries (e.g., *Mobile POS Devices*, *B2B Partner Gateways*).
+*   **The Core (Central Context)**: Receives commands, listens to facts, and independently manages its own reality and rules (e.g., *Order Fulfillment*, *General Ledger*).
