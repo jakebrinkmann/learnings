@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fbcf9606f95080e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "architecture/Tooling/EAR-Framework-Shorthand.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "EAR-Framework-Shorthand"
-            }
-          },
-          {
             "id": "ca10a62797edc5d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gemini-Copilot Conversation.md",
+                "file": "AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gemini-Copilot Conversation"
+              "title": "AGENTS"
             }
           }
         ]
@@ -192,16 +178,23 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "gemini-scribe:Gemini Scribe: Agent Mode": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "fbcf9606f95080e6",
+  "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
-    "EAR-Framework-Shorthand.m.md",
+    "journal/Gemini-Copilot Conversation.md",
+    "meta",
+    "scripts",
+    "assets",
+    "gemini-scribe/Agent-Sessions/Project Root File Cleanup.md",
+    "architecture/Tooling/EAR-Framework-Shorthand.md",
+    "gemini-scribe/Agent-Sessions",
+    "gemini-scribe/skills",
+    "architecture/EAR-Framework-Shorthand.m.md",
     "architecture/DDD/Architecture-As-Code-Transitions.md",
     "architecture/DDD/Cross-Context-Integration.md",
-    "architecture/Tooling/EAR-Framework-Shorthand.md",
     "gemini-scribe/Agent-Sessions/DDD- Sync APIs vs Async Events.md",
     "architecture/Tooling/Architecture-as-Code.md",
     "architecture/Model-Driven-Engineering.md",
@@ -214,27 +207,19 @@
     "gemini-scribe/Agent-Sessions/Distilling to Essential Short-Hand.md",
     "engineering/AI-Agents/Principal-Architect-Agent-Prompt.md",
     "gemini-scribe/Agent-Sessions/AI Agent Architecture Consolidation.md",
-    "Gemini-Copilot Conversation.md",
     "management/SDLC-Model.md",
     "gemini-scribe/Agent-Sessions/Automated EAR Audit & Structurizr Refactor.md",
-    "Systems Thinking and Conceptual Integrity.md",
-    "Home.md",
+    "architecture/Systems Thinking and Conceptual Integrity.md",
+    "meta/Home.md",
     "gemini-scribe/Agent-Sessions/Systems Thinking & Conceptual Integrity.md",
     "architecture/DDD/Context-Mapping-Patterns.md",
     "architecture/DDD/Aggregates-and-Entities.md",
-    "engineering/AI-Agents/llm-hackathon.md",
-    "engineering/AI-Agents/jupyter-llm-setup.md",
     "engineering/Tools",
     "engineering/Observability",
     "engineering/Testing",
     "engineering/Security",
     "engineering/Cloud",
-    "engineering/Backend",
-    "engineering/Frontend",
-    "engineering/API",
-    "engineering/AI-Agents",
-    "writing",
-    "Pasted image 20260305122630.png",
+    "assets/Pasted image 20260305122630.png",
     "Untitled.canvas"
   ]
 }
