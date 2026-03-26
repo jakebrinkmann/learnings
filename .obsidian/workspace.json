@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "architecture/DDD/Modeling-and-Workflows.md",
+                "file": "architecture/Systems Thinking and Conceptual Integrity.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modeling-and-Workflows"
+              "title": "Systems Thinking and Conceptual Integrity"
             }
           },
           {
@@ -180,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 725.5,
-    "collapsed": true
+    "width": 725.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,11 +195,19 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "69dc2cae48c739e8",
+  "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
-    "architecture/DDD/Event-Storming-Facilitation.md",
+    "gemini-scribe/AGENTS.md",
+    "architecture/DDD/Domain-Driven-Design-Knowledge-Base.md",
+    "gemini-scribe/Agent-Sessions/Systems Thinking Cheatsheet.md",
     "architecture/DDD/Discovery-Tools.md",
+    "architecture/DDD/Cross-Context-Integration.md",
+    "architecture/DDD/Context-Maps.md",
+    "architecture/DDD/Context-Mapping-Patterns.md",
+    "architecture/DDD/Architecture-As-Code-Transitions.md",
+    "architecture/DDD/Aggregates-and-Entities.md",
     "architecture/DDD/Modeling-and-Workflows.md",
+    "architecture/DDD/Event-Storming-Facilitation.md",
     "architecture/DDD/Physical-vs-Conceptual-Boundaries.md",
     "architecture/DDD/Shared-Core-Subdomain.md",
     "architecture/DDD/Value-Objects.md",
@@ -219,18 +226,10 @@
     "gemini-scribe/Agent-Sessions",
     "gemini-scribe/skills",
     "architecture/EAR-Framework-Shorthand.m.md",
-    "architecture/DDD/Architecture-As-Code-Transitions.md",
-    "architecture/DDD/Cross-Context-Integration.md",
     "gemini-scribe/Agent-Sessions/DDD- Sync APIs vs Async Events.md",
     "architecture/Tooling/Architecture-as-Code.md",
     "architecture/Model-Driven-Engineering.md",
     "architecture/Runtime-Domain-Mapping.md",
-    "architecture/Code-Property-Graphs.md",
-    "architecture/Formal-Methods.md",
-    "architecture/Mathematical-Frameworks.md",
-    "gemini-scribe/Agent-Sessions/Knowledge Base Check- Unified Software Systems.md",
-    "engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
-    "gemini-scribe/Agent-Sessions/Distilling to Essential Short-Hand.md",
     "engineering/Tools",
     "engineering/Observability",
     "engineering/Testing",
