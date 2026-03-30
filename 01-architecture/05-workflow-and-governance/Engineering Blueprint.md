@@ -31,7 +31,7 @@ Traditional functional decomposition leads to fragile systems. I design architec
 * **Encapsulating the Unknown:** Features are decomposed into Managers (orchestrators), Engines (logic), and Resource Access (data/API gatekeepers).
 * **Blast Radius Containment:** By hiding volatile components (like 3rd-party integrations or regulatory rules) behind strict interfaces, the impact of a business pivot is localized, preventing architectural shattering.
 
-See also: [[Patterns]], [[Tradeoffs]], [[NFRs]]
+See also: [[Patterns]], [[Tradeoffs]], [[Requirements Engineering]]
 
 ---
 
@@ -42,7 +42,7 @@ I eradicate ambiguity between the business and engineering through "Living Docum
 * **The Three Amigos:** Requirements are defined collaboratively by a Domain Expert, a Developer, and a QA Engineer.
 * **Gherkin Syntax:** Vague requirements are banned. We formulate Acceptance Criteria using Given/When/Then syntax, transforming static documents into testable facts. These plain-text scenarios are physically bound to automated test code.
 
-See also: [[sdlc_project-grooming_Acceptance Criteria]], [[sdlc_project-grooming_Definition of Done]]
+See also: [[Requirements Engineering]]
 
 ---
 
