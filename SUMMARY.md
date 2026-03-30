@@ -74,6 +74,7 @@
 * [Security](02-engineering/Security/OAUTH.md)
   * [Permission Scopes](02-engineering/Security/PermissionScopes.md)
 * [Testing](02-engineering/Testing/Testing.md)
+  * [Enterprise Test Pyramid](02-engineering/Testing/Enterprise-Test-Pyramid.md)
   * [Test Doubles](02-engineering/Testing/TestDouble.md)
   * [Fuzzing](02-engineering/Testing/Fuzzing.md)
 * [Tools](02-engineering/Tools/git_using-fugitive.md)

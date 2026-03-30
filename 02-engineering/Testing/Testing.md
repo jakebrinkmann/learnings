@@ -1,33 +1,39 @@
 ---
-tags: "[qa, testing]"
+tags: [qa, testing, moc]
 ---
-Agile without proper test automation is dead
-  - Pick what was tested that needs to be automated,
-  - So just increasing the number of automated tests
-  - Automated regression testing happens during sprint; until system/performance testing
+# Testing & Quality Assurance (QA)
 
-Estimate with T-shirt sizing should include dev/testing.
+Quality Assurance is not a phase at the end of the SDLC; it is a continuous practice integrated into every step of engineering. This section aggregates our approach to testing, test automation, and the quality frameworks that govern our deployment pipelines.
 
-Who owns testing? Unit tests is devs. Functional tests with dev/stakeholder. Automation of tests, devs can, GWT/BDD.
+> **Core Principle:** Agile without proper test automation is dead.
 
-End-to-end testing, performance testing, outside developers.
+## Enterprise Quality Framework
 
-Modified waterfall model
-  - Requirements :: Analysis
-  - Design :: Checking
-  - Implementation :: Unit Testing
-  - Integration :: System Testing
-  - Maintenance :: Regression Testing
+Our primary structural model for testing is the **9-Layer Test Pyramid**, which ensures fast feedback at every level and strict traceability from business requirements down to deployed code.
 
-What kind of tests?
-  - Programmer tests / non-programmer tests
-  - Developer / Tester
-  - Unit tests / Integration tests / Functional tests / System tests
-  - Automated tests / Manual tests
-  - Regression tests
-  - Exploratory testing
+* **[[Enterprise-Test-Pyramid]]** - The comprehensive 9-layer framework, mapping test types (Unit, Integration, E2E, Smoke, Regression, Security, Performance) to Work Items and Pipeline Gates.
 
---
+## Testing Practices & Methodologies
 
-- Leverage Rapid Deployment Solutions (RDS)
-- [Parallel Independent Testing](https://www.pmi.org/disciplined-agile/agility-at-scale/tactical-agility-at-scale/large-agile-teams/supporting-large-agile-teams)
+* **[[TestDouble]]** - Strategies for isolating tests (Mocks, Stubs, Spies, Fakes, Dummies).
+* **[[Fuzzing]]** - Automated generation of invalid, unexpected, or random data as inputs to a computer program.
+* **[[Test-Keywords]]** - Vocabulary and concepts related to test engineering.
+* **[[Sub-Test-Execution]]** - Guidelines for executing specific sub-tests.
+* **[[Test-Cases-Template]]** - Standardized templates for writing test cases.
+
+## Key Concepts & Heuristics
+
+* **Ownership:** Unit tests are owned by developers. Functional tests are co-owned with stakeholders (often using Gherkin/BDD). End-to-end and performance testing may involve specialized QA engineers.
+* **Shift-Left Testing:** Test design happens concurrently with system design. 
+  * Requirements $\rightarrow$ Analysis
+  * Design $\rightarrow$ Checking
+  * Implementation $\rightarrow$ Unit Testing
+  * Integration $\rightarrow$ System Testing
+  * Maintenance $\rightarrow$ Regression Testing
+* **Estimations:** T-shirt sizing for stories *must* include dev and testing effort.
+* **Parallel Independent Testing:** Leverage parallel pipelines and independent test environments to ensure speed without sacrificing coverage.
+
+---
+**Related Topics:**
+* [[Requirements Engineering]] - How we capture the Gherkin Acceptance Criteria that drive our tests.
+* [[SDLC-Model]] - How testing fits into the broader Software Development Lifecycle.
