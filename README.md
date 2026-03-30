@@ -1,21 +1,21 @@
-# Always WIP `¯\_(ツ)_/¯`
+# Holistic Software Engineering & Architecture
 
-> Knowledge is always cumulative and [we] therefore concede that future eras will know more than we do.
+> "Knowledge is always cumulative and we therefore concede that future eras will know more than we do."
 > — _Kathryn Schulz_
 
-keeping dedicated topic notes on my projects and collaborators
+Welcome to my personal, living handbook for building software solutions holistically and sanely. This repository captures my evolving mental models, design principles, and best practices across the entire spectrum of software creation—from the high-level architecture down to the daily routines that keep us productive.
 
-Come on in; the water's fine!
+## The Five Pillars
 
-```sh
-git clone git@github.com:jakebrinkmann/learnings.git ~/learnings
-codium ~/learnings
-```
+This knowledge base is organized into five core parts, representing the dimensions of effective software delivery:
 
-> Design, Decide, Simplify, Code, Document,
-> Communicate, Estimate, Balance, Consult, Market
+1. **[Architecture](01-architecture/README.md)**: The "Why" and "Where". Systems thinking, evolutionary architecture, Domain-Driven Design, and the structural patterns that allow software to bend instead of break.
+2. **Engineering**: The "What". The tactical implementation details across APIs, Backend, Frontend, Cloud Infrastructure, Security, and AI integration.
+3. **Management**: The "Who" and "When". Agile methodologies, the software development lifecycle, engineering leadership, and team dynamics.
+4. **Productivity & Mindset**: The "How I Work". Mental models, critical thinking, problem-solving frameworks, and personal time management (Eat That Frog, PARA, ABCDE).
+5. **Communication**: The "How We Connect". The art of wordsmithing, documentation frameworks (Diátaxis, Zettelkasten), and effective team communication (LMAO, ELMO).
 
-## Values
+## Core Values
 
 | **Strategy**                          | **Mindfulness**                 |
 | ------------------------------------- | ------------------------------- |
@@ -34,7 +34,8 @@ codium ~/learnings
 | ----------- | ------------ |
 | 💬 DISTRACT | 🛑 DETRACT   |
 
-JFDIs: Just Fucking Do It
+## Getting Started
 
-- Value: the value generated for your customer
-- Effort: the effort required to deliver
+Dive right into the [Table of Contents (`SUMMARY.md`)](SUMMARY.md) to explore the full structure of the book. 
+
+> Design, Decide, Simplify, Code, Document, Communicate, Estimate, Balance, Consult, Market.
