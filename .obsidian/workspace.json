@@ -184,6 +184,10 @@
   },
   "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
+    "gemini-scribe/Prompts/example-expert.md",
+    "gemini-scribe/Prompts",
+    "gemini-scribe/Agent-Sessions/Agent Session 3-30-2026.md",
+    "gemini-scribe/Agent-Sessions/Enterprise SDLC EKG Coverage Check.md",
     "02-engineering/Testing/Testing.md",
     "02-engineering/Testing/Enterprise-Test-Pyramid.md",
     "AGENTS.md",
@@ -205,7 +209,6 @@
     "05-communication/02-documentation-frameworks",
     "05-communication/01-wordsmithing",
     "04-productivity-and-mindset/04-ai-conversations",
-    "04-productivity-and-mindset/03-daily-routines",
     "2026-03-25.md",
     "01-architecture/SUMMARY.md",
     "Untitled.canvas",
@@ -219,9 +222,6 @@
     "01-architecture/02-domain-driven-design/Cross-Context-Integration.md",
     "01-architecture/02-domain-driven-design/Context-Maps.md",
     "01-architecture/02-domain-driven-design/Context-Mapping-Patterns.md",
-    "01-architecture/02-domain-driven-design/Architecture-As-Code-Transitions.md",
-    "01-architecture/02-domain-driven-design/Aggregates-and-Entities.md",
-    "01-architecture/02-domain-driven-design/Modeling-and-Workflows.md",
-    "01-architecture/02-domain-driven-design/Event-Storming-Facilitation.md"
+    "01-architecture/02-domain-driven-design/Architecture-As-Code-Transitions.md"
   ]
 }
