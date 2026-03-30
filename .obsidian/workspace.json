@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "AGENTS"
             }
           }
         ]
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 725.5,
-    "collapsed": true
+    "width": 725.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,8 +181,11 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "371b1c6434897b1f",
+  "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
+    "gemini-scribe/Agent-Sessions/Types of System Requirements.md",
+    "pasted-image-1774888820176-d5hwkp.png",
+    "README.md",
     "AGENTS.md",
     "06-appendices/03-personal-and-interviews",
     "06-appendices/02-engineering-and-sdlc",
@@ -197,7 +199,6 @@
     "04-productivity-and-mindset/04-ai-conversations",
     "04-productivity-and-mindset/03-daily-routines",
     "2026-03-25.md",
-    "README.md",
     "01-architecture/SUMMARY.md",
     "Untitled.canvas",
     "01-architecture/README.md",
