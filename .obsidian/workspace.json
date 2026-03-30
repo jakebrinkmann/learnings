@@ -182,8 +182,15 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "371b1c6434897b1f",
+  "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
+    "06-appendices/02-engineering-and-sdlc/Release-Record-Template.md",
+    "06-appendices/02-engineering-and-sdlc/Test-Run-Template.md",
+    "06-appendices/02-engineering-and-sdlc/Test-Charter-Template.md",
+    "06-appendices/01-agile-and-project-management/Security-Story-Template.md",
+    "06-appendices/01-agile-and-project-management/NFR-Story-Template.md",
+    "06-appendices/01-agile-and-project-management/Portfolio-Epic-Template.md",
+    "01-architecture/05-workflow-and-governance/Enterprise-SDLC-EKG.md",
     "02-engineering/Testing/Enterprise-Test-Pyramid.md",
     "gemini-scribe/Prompts/example-expert.md",
     "gemini-scribe/Prompts",
@@ -215,13 +222,6 @@
     "01-architecture/README.md",
     "01-architecture/01-philosophy/Evolutionary Architecture Forward.md",
     "01-architecture/01-philosophy/Systems Thinking and Conceptual Integrity.md",
-    "gemini-scribe/Agent-Sessions/Structuring Architecture Knowledge.md",
-    "01-architecture/02-domain-driven-design/Domain-Driven-Design-Knowledge-Base.md",
-    "gemini-scribe/Agent-Sessions/Systems Thinking Cheatsheet.md",
-    "01-architecture/02-domain-driven-design/Discovery-Tools.md",
-    "01-architecture/02-domain-driven-design/Cross-Context-Integration.md",
-    "01-architecture/02-domain-driven-design/Context-Maps.md",
-    "01-architecture/02-domain-driven-design/Context-Mapping-Patterns.md",
-    "01-architecture/02-domain-driven-design/Architecture-As-Code-Transitions.md"
+    "gemini-scribe/Agent-Sessions/Structuring Architecture Knowledge.md"
   ]
 }

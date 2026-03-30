@@ -50,6 +50,7 @@
   * [Engineering Blueprint](01-architecture/05-workflow-and-governance/Engineering Blueprint.md)
   * [Enterprise Architecture Layers](01-architecture/05-workflow-and-governance/Enterprise-Architecture-Layers.md)
   * [Architecture Document Template](01-architecture/05-workflow-and-governance/Architecture Document Template.md)
+  * [Enterprise SDLC EKG](01-architecture/05-workflow-and-governance/Enterprise-SDLC-EKG.md)
 
 ## Part 2: Engineering
 * [AI & Agents](02-engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md)
@@ -138,7 +139,14 @@
   * [ELMO](05-communication/03-team-communication/ELMO.md)
   * [Emojis](05-communication/03-team-communication/Emojis.md)
 * [Publications](05-communication/04-publications/atlassian_blog.md)
+
 ## 06 Appendices: Templates & Checklists
 * [Agile & Project Management](06-appendices/01-agile-and-project-management/Project-Index-Template.md)
+  * [Portfolio Epic Template](06-appendices/01-agile-and-project-management/Portfolio-Epic-Template.md)
+  * [NFR Story Template](06-appendices/01-agile-and-project-management/NFR-Story-Template.md)
+  * [Security Story Template](06-appendices/01-agile-and-project-management/Security-Story-Template.md)
 * [Engineering & SDLC](06-appendices/02-engineering-and-sdlc/Pull-Request-Template.md)
+  * [Test Charter Template](06-appendices/02-engineering-and-sdlc/Test-Charter-Template.md)
+  * [Test Run Template](06-appendices/02-engineering-and-sdlc/Test-Run-Template.md)
+  * [Release Record Template](06-appendices/02-engineering-and-sdlc/Release-Record-Template.md)
 * [Personal & Interviews](06-appendices/03-personal-and-interviews/Interview-Template.md)
