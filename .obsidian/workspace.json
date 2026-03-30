@@ -183,6 +183,7 @@
   },
   "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
+    "gemini-scribe/Agent-Sessions/Agent Session 3-30-2026.md",
     "gemini-scribe/Agent-Sessions/Purpose of Two AGENTS Files.md",
     "gemini-scribe/AGENTS.md",
     "03-management/02-project-lifecycle/Requirements Engineering.md",
@@ -220,7 +221,6 @@
     "01-architecture/02-domain-driven-design/Modeling-and-Workflows.md",
     "01-architecture/02-domain-driven-design/Event-Storming-Facilitation.md",
     "01-architecture/02-domain-driven-design/Physical-vs-Conceptual-Boundaries.md",
-    "01-architecture/02-domain-driven-design/Shared-Core-Subdomain.md",
-    "01-architecture/02-domain-driven-design/Value-Objects.md"
+    "01-architecture/02-domain-driven-design/Shared-Core-Subdomain.md"
   ]
 }
