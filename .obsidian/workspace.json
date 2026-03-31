@@ -182,8 +182,9 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "371b1c6434897b1f",
+  "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
+    "gemini-scribe/Agent-Sessions/C4 Model Vault Integration Strategy.md",
     "06-appendices/01-agile-and-project-management/Portfolio-Epic-Template.md",
     "Epic 1.md",
     "AGENTS.md",
@@ -221,7 +222,6 @@
     "01-architecture/SUMMARY.md",
     "Untitled.canvas",
     "01-architecture/README.md",
-    "01-architecture/01-philosophy/Evolutionary Architecture Forward.md",
-    "01-architecture/01-philosophy/Systems Thinking and Conceptual Integrity.md"
+    "01-architecture/01-philosophy/Evolutionary Architecture Forward.md"
   ]
 }
