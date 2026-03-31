@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-architecture/02-domain-driven-design/Event-Storming-Facilitation.md",
+                "file": "01-architecture/04-architecture-as-code/C4 Model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Event-Storming-Facilitation"
+              "title": "C4 Model"
             }
           }
         ]
@@ -161,9 +161,19 @@
               "icon": "sparkles",
               "title": "Agent Mode"
             }
+          },
+          {
+            "id": "978cc87e28e967a3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -182,8 +192,9 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "01f2a9f303520f0c",
+  "active": "371b1c6434897b1f",
   "lastOpenFiles": [
+    "01-architecture/02-domain-driven-design/Event-Storming-Facilitation.md",
     "gemini-scribe/Agent-Sessions/C4 Model Vault Integration Strategy.md",
     "06-appendices/01-agile-and-project-management/Portfolio-Epic-Template.md",
     "Epic 1.md",
@@ -221,7 +232,6 @@
     "2026-03-25.md",
     "01-architecture/SUMMARY.md",
     "Untitled.canvas",
-    "01-architecture/README.md",
-    "01-architecture/01-philosophy/Evolutionary Architecture Forward.md"
+    "01-architecture/README.md"
   ]
 }
