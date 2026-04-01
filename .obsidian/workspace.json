@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
+                "file": "02-engineering/AI-Agents/llm-hackathon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI-Agent-Architecture-Consolidation"
+              "title": "llm-hackathon"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "system context",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
+                "file": "02-engineering/AI-Agents/llm-hackathon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AI-Agent-Architecture-Consolidation"
+              "title": "Backlinks for llm-hackathon"
             }
           },
           {
@@ -115,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
+                "file": "02-engineering/AI-Agents/llm-hackathon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from AI-Agent-Architecture-Consolidation"
+              "title": "Outgoing links from llm-hackathon"
             }
           },
           {
@@ -144,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
+                "file": "02-engineering/AI-Agents/llm-hackathon.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AI-Agent-Architecture-Consolidation"
+              "title": "Outline of llm-hackathon"
             }
           },
           {
@@ -193,13 +193,14 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "e86b30f122811ee6",
+  "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
-    "02-engineering/AI-Agents/llm-hackathon.md",
+    "gemini-scribe/Agent-Sessions/llm-hackathon Source Attribution.md",
     "02-engineering/AI-Agents/AI-Architecture-Principles.md",
-    "02-engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
-    "02-engineering/AI-Agents/Principal-Architect-Agent-Prompt.md",
     "02-engineering/AI-Agents/MCP-Integration-Strategy.md",
+    "02-engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
+    "02-engineering/AI-Agents/llm-hackathon.md",
+    "02-engineering/AI-Agents/Principal-Architect-Agent-Prompt.md",
     "01-architecture/04-architecture-as-code/C4 Model.md",
     "gemini-scribe/Agent-Sessions/Agentic Systems Map & Vault Alignment.md",
     "gemini-scribe/Agent-Sessions/Agent Session 3-30-2026.md",
@@ -221,7 +222,6 @@
     "gemini-scribe/Agent-Sessions/Enterprise SDLC EKG Coverage Check.md",
     "02-engineering/Testing/Testing.md",
     "gemini-scribe/Agent-Sessions/SDLC-SAFe Framework GitBook Analysis.md",
-    "gemini-scribe/Agent-Sessions/Purpose of Two AGENTS Files.md",
     "assets/Pasted image 20260305122630.png",
     "pasted-image-1774888820176-d5hwkp.png",
     "06-appendices/03-personal-and-interviews",
