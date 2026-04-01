@@ -1,5 +1,5 @@
 ---
-tags: "[llm, hackathon]"
+tags: "[llm, hackathon, mcp]"
 ---
 # Let's hack on `llm`!
 
@@ -61,6 +61,9 @@ llm aliases set cypher-alpha openrouter/openrouter/cypher-alpha:free
 
 2. **Whole-repository Q&A** in combination with [repomix](https://github.com/yamadashy/repomix)
 
+    > [!warning] Deprecation: Context Window Collapse
+    > `repomix` repository stuffing is deprecated for complex reasoning. Use [[AI-Architecture-Principles#Memory & Context (RAG vs GraphRAG)]] instead.
+
     For this one, you'll need `repomix`, which you can install globally with [Node](https://nodejs.org/en/download):
 
     ```bash
@@ -100,6 +103,9 @@ llm aliases set cypher-alpha openrouter/openrouter/cypher-alpha:free
 
 4. **Data extraction** with structured outputs
 
+    > [!success] Best Practice: Structured Outputs
+    > Always use JSON Schema constraints and Temperature 0.0 for tool calling. See [[AI-Architecture-Principles#The Engine (Stateless Core)]].
+
     You can use the `--schema` option to specify a schema for JSON output. For instance, here's how we can extract structured information about a Github user from their profile page using [curl](https://curl.se/docs/gettingstarted.html) and [strip-tags](https://github.com/simonw/strip-tags):
 
     ```bash
@@ -110,17 +116,20 @@ llm aliases set cypher-alpha openrouter/openrouter/cypher-alpha:free
 
 It's possible to do some pretty ambitious stuff with `llm` if you use it in a Bash script. Here's [an example](https://github.com/chriscarrollsmith/github_repo_classifier) of how I used `llm` in a Bash loop to find underrated Github repositories.
 
+> [!info] Architectural Note
+> When building loops, weaponize errors and implement circuit breakers. See [[AI-Architecture-Principles#The Loop (Orchestration)]].
+
 **But!** We've only got an hour, so I suggest you focus on coming up with a proof of concept and a pitch for how to scale the idea.
 
 Here are some suggestions:
 
 1. **Give `llm` a Python tool**
 
-    One of the cool things you can do with `llm` is [give it Python functions](https://llm.datasette.io/en/stable/tools.html) that it can call. I haven't experimented with this yet myself, but there's all kinds of potential here.
+    One of the cool things you can do with `llm` is [give it Python functions](https://llm.datasette.io/en/stable/tools.html) that it can call. I haven't experimented with this yet myself, but there's all kinds of potential here. *Remember: Offload all deterministic tasks (math, sorting, logic checks) to Python. Never let the LLM do math.*
 
 2. **Embed some personal files for semantic search**
 
-    You could try using `llm`'s [`embed` and `similar` commands](https://llm.datasette.io/en/stable/embeddings/index.html) to embed some personal files and make them fuzzy-searchable.
+    You could try using `llm`'s [`embed` and `similar` commands](https://llm.datasette.io/en/stable/embeddings/index.html) to embed some personal files and make them fuzzy-searchable. *(Note: For factual lookups, use Vector RAG with strict semantic chunking and a Re-ranker model. Only inject the top 3-5 results).*
 
 3. **Chat with a local model**
 

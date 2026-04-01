@@ -11,10 +11,14 @@
             "id": "e86b30f122811ee6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02-engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "AI-Agent-Architecture-Consolidation"
             }
           }
         ]
@@ -75,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b9305c12c35c0767",
@@ -91,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-architecture/04-architecture-as-code/C4 Model.md",
+                "file": "02-engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for C4 Model"
+              "title": "Backlinks for AI-Agent-Architecture-Consolidation"
             }
           },
           {
@@ -110,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-architecture/04-architecture-as-code/C4 Model.md",
+                "file": "02-engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from C4 Model"
+              "title": "Outgoing links from AI-Agent-Architecture-Consolidation"
             }
           },
           {
@@ -139,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-architecture/04-architecture-as-code/C4 Model.md",
+                "file": "02-engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of C4 Model"
+              "title": "Outline of AI-Agent-Architecture-Consolidation"
             }
           },
           {
@@ -188,12 +193,17 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "01f2a9f303520f0c",
+  "active": "e86b30f122811ee6",
   "lastOpenFiles": [
+    "02-engineering/AI-Agents/llm-hackathon.md",
+    "02-engineering/AI-Agents/AI-Architecture-Principles.md",
+    "02-engineering/AI-Agents/AI-Agent-Architecture-Consolidation.md",
+    "02-engineering/AI-Agents/Principal-Architect-Agent-Prompt.md",
+    "02-engineering/AI-Agents/MCP-Integration-Strategy.md",
+    "01-architecture/04-architecture-as-code/C4 Model.md",
     "gemini-scribe/Agent-Sessions/Agentic Systems Map & Vault Alignment.md",
     "gemini-scribe/Agent-Sessions/Agent Session 3-30-2026.md",
     "01-architecture/02-domain-driven-design/Event-Storming-Facilitation.md",
-    "01-architecture/04-architecture-as-code/C4 Model.md",
     "01-architecture/04-architecture-as-code/PlantUML Diagrams.md",
     "gemini-scribe/Agent-Sessions/C4 Model Vault Integration Strategy.md",
     "06-appendices/01-agile-and-project-management/Portfolio-Epic-Template.md",
@@ -212,17 +222,12 @@
     "02-engineering/Testing/Testing.md",
     "gemini-scribe/Agent-Sessions/SDLC-SAFe Framework GitBook Analysis.md",
     "gemini-scribe/Agent-Sessions/Purpose of Two AGENTS Files.md",
-    "gemini-scribe/AGENTS.md",
-    "03-management/02-project-lifecycle/Requirements Engineering.md",
     "assets/Pasted image 20260305122630.png",
-    "gemini-scribe/Agent-Sessions/Types of System Requirements.md",
     "pasted-image-1774888820176-d5hwkp.png",
-    "README.md",
     "06-appendices/03-personal-and-interviews",
     "06-appendices/02-engineering-and-sdlc",
     "06-appendices/01-agile-and-project-management",
     "06-appendices",
-    "SUMMARY.md",
     "05-communication/04-publications",
     "05-communication/03-team-communication",
     "05-communication/02-documentation-frameworks",
