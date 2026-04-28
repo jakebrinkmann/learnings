@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-architecture/03-architectural-patterns/Design Blocks.md",
+                "file": "01-architecture/03-architectural-patterns/UI and Presentation Patterns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design Blocks"
+              "title": "UI and Presentation Patterns"
             }
           }
         ],
@@ -250,15 +250,21 @@
   },
   "active": "1619bffca50c1221",
   "lastOpenFiles": [
+    "01-architecture/03-architectural-patterns/SOLID Principles.md",
+    "01-architecture/03-architectural-patterns/Design Patterns (GoF).md",
+    "01-architecture/03-architectural-patterns/Patterns Overview.md",
+    "01-architecture/03-architectural-patterns/Architectural Layers and Evolution.md",
+    "01-architecture/03-architectural-patterns/12-Factor App.md",
+    "01-architecture/03-architectural-patterns/UI and Presentation Patterns.md",
+    "01-architecture/03-architectural-patterns/Message vs Event vs Command.md",
+    "01-architecture/03-architectural-patterns/Design Blocks.md",
     "01-architecture/03-architectural-patterns/Event-Driven Architecture.md",
     "01-architecture/03-architectural-patterns/Event-Driven Implementation Examples.md",
     "01-architecture/03-architectural-patterns/Frontend Event Patterns.md",
     "01-architecture/03-architectural-patterns/Event-Driven Domain Design (DDD).md",
     "01-architecture/03-architectural-patterns/Event Sourcing.md",
     "01-architecture/03-architectural-patterns/Event Design and Naming Conventions.md",
-    "01-architecture/03-architectural-patterns/Message vs Event vs Command.md",
     "gemini-scribe/Agent-Sessions/Structuring Event-Driven Advice.md",
-    "01-architecture/03-architectural-patterns/Design Blocks.md",
     "gemini-scribe/Agent-Sessions/Concrete Methodologies for Design Blocks.md",
     "01-architecture/02-domain-driven-design/Value-Objects.md",
     "01-architecture/02-domain-driven-design/Ubiquitous-Language.md",
@@ -270,12 +276,6 @@
     "01-architecture/02-domain-driven-design/Event-Storming-Facilitation.md",
     "01-architecture/02-domain-driven-design/Domain-Driven-Design-Knowledge-Base.md",
     "01-architecture/02-domain-driven-design/Discovery-Tools.md",
-    "01-architecture/02-domain-driven-design/Cross-Context-Integration.md",
-    "01-architecture/02-domain-driven-design/Context-Maps.md",
-    "01-architecture/02-domain-driven-design/Context-Mapping-Patterns.md",
-    "01-architecture/02-domain-driven-design/Architecture-As-Code-Transitions.md",
-    "01-architecture/02-domain-driven-design/Aggregates-and-Entities.md",
-    "01-architecture/01-philosophy/Tradeoffs.md",
     "gemini-scribe/Prompts",
     "assets/Pasted image 20260305122630.png",
     "pasted-image-1774888820176-d5hwkp.png",
