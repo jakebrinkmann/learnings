@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-architecture/02-domain-driven-design/Subdomain-Distillation.md",
+                "file": "01-architecture/05-workflow-and-governance/Architecture Decision Records.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subdomain-Distillation"
+              "title": "Architecture Decision Records"
             }
           }
         ]
@@ -195,6 +195,8 @@
   },
   "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
+    "01-architecture/05-workflow-and-governance/Write The Docs - ADR.md",
+    "01-architecture/02-domain-driven-design/Subdomain-Distillation.md",
     "01-architecture/02-domain-driven-design/Context-Maps.md",
     "gemini-scribe/Agent-Sessions/Missing Domain-Driven Design Concepts.md",
     "01-architecture/02-domain-driven-design/Domain-Driven-Design-Knowledge-Base.md",
@@ -219,8 +221,6 @@
     "06-appendices/02-engineering-and-sdlc/Test-Run-Template.md",
     "06-appendices/02-engineering-and-sdlc/Test-Charter-Template.md",
     "06-appendices/01-agile-and-project-management/Security-Story-Template.md",
-    "06-appendices/01-agile-and-project-management/NFR-Story-Template.md",
-    "01-architecture/05-workflow-and-governance/Enterprise-SDLC-EKG.md",
     "gemini-scribe/Prompts",
     "assets/Pasted image 20260305122630.png",
     "pasted-image-1774888820176-d5hwkp.png",
