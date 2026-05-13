@@ -7,6 +7,13 @@ tags: [architecture, c4, diagrams, modeling]
 [Cheat Sheets](http://www.codingthearchitecture.com/2017/04/27/visualising_and_documenting_software_architecture_cheat_sheets.html)
 [arc42 Template](https://github.com/arc42/arc42-template)
 
+Simon Brown’s canonical progression through the C4 Model hierarchy. The directory explicitly separates the architectural views:
+
+1. **L1:** System Landscape & System Context
+2. **L2:** Container Diagrams
+3. **L3:** Component Diagrams
+4. **L4:** Code Diagrams (Optional)
+5. **Cross-Cutting:** Dynamic (Sequence) & Deployment Diagrams
 ## 1. The "Why" (Sociotechnical Context)
 - **Maps of your code:** Google Maps for architecture. Zoom in/out based on audience.
 - **Shared Understanding:** Bridges business, product, and engineering.
