@@ -4,81 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "96e826d054fd70dc",
+        "id": "ae777499de688d2a",
         "type": "tabs",
         "children": [
           {
-            "id": "1619bffca50c1221",
+            "id": "0f260974a106c908",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-architecture/02-domain-driven-design/Modeling-and-Workflows.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Modeling-and-Workflows"
-            }
-          },
-          {
-            "id": "1605e01564e1ada3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-architecture/01-philosophy/Evolutionary Architecture Forward.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Evolutionary Architecture Forward"
-            }
-          },
-          {
-            "id": "d90a8134ef56010e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-management/02-project-lifecycle/DataFlowDiagram.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DataFlowDiagram"
-            }
-          },
-          {
-            "id": "0b3a398b5444494c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-architecture/02-domain-driven-design/Subdomain-Distillation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Subdomain-Distillation"
-            }
-          },
-          {
-            "id": "c7075e98cd012134",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-architecture/04-architecture-as-code/C4 Model.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C4 Model"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -250,6 +189,7 @@
   },
   "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
+    "gemini-scribe/Agent-Sessions/Agent Session 5-27-2026.md",
     "01-architecture/01-philosophy/Evolutionary Architecture Forward.md",
     "01-architecture/01-philosophy/Evolving Software Architecture.md",
     "01-architecture/04-architecture-as-code/C4 Model.md",
@@ -281,7 +221,6 @@
     "01-architecture/03-architectural-patterns/SOLID Principles.md",
     "01-architecture/03-architectural-patterns/Design Patterns (GoF).md",
     "01-architecture/03-architectural-patterns/Patterns Overview.md",
-    "01-architecture/03-architectural-patterns/Architectural Layers and Evolution.md",
     "gemini-scribe/Prompts",
     "assets/Pasted image 20260305122630.png",
     "pasted-image-1774888820176-d5hwkp.png",
