@@ -11,10 +11,14 @@
             "id": "0f260974a106c908",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02-engineering/API/APIDocumentation.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "APIDocumentation"
             }
           }
         ]
@@ -187,12 +191,15 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "01f2a9f303520f0c",
+  "active": "0f260974a106c908",
   "lastOpenFiles": [
+    "02-engineering/API/API-Events-hybrid.md",
+    "02-engineering/API/APIDocumentation.md",
+    "Untitled.md",
+    "01-architecture/04-architecture-as-code/C4 Model.md",
     "gemini-scribe/Agent-Sessions/Agent Session 5-27-2026.md",
     "01-architecture/01-philosophy/Evolutionary Architecture Forward.md",
     "01-architecture/01-philosophy/Evolving Software Architecture.md",
-    "01-architecture/04-architecture-as-code/C4 Model.md",
     "03-management/02-project-lifecycle/DataFlowDiagram.md",
     "01-architecture/02-domain-driven-design/Subdomain-Distillation.md",
     "01-architecture/02-domain-driven-design/Physical-vs-Conceptual-Boundaries.md",
@@ -202,7 +209,6 @@
     "gemini-scribe/Agent-Sessions/Domain-Driven Design- Comprehensive Guide.md",
     "01-architecture/05-workflow-and-governance/Concept-Proposal-Template.md",
     "gemini-scribe/Agent-Sessions/Architectural Proposal Action Plan.md",
-    "Untitled.md",
     "gemini-scribe/Agent-Sessions/Diagramming Advice & Cheatsheets.md",
     "01-architecture/02-domain-driven-design/Domain-Driven-Design-Knowledge-Base.md",
     "06-appendices/01-agile-and-project-management/Workflows.md",
@@ -219,8 +225,6 @@
     "fromJason/EKG-POLICY.html.txt",
     "fromJason",
     "01-architecture/03-architectural-patterns/SOLID Principles.md",
-    "01-architecture/03-architectural-patterns/Design Patterns (GoF).md",
-    "01-architecture/03-architectural-patterns/Patterns Overview.md",
     "gemini-scribe/Prompts",
     "assets/Pasted image 20260305122630.png",
     "pasted-image-1774888820176-d5hwkp.png",
