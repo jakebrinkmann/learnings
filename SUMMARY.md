@@ -146,6 +146,7 @@
   * [NFR Story Template](06-appendices/01-agile-and-project-management/NFR-Story-Template.md)
   * [Security Story Template](06-appendices/01-agile-and-project-management/Security-Story-Template.md)
 * [Engineering & SDLC](06-appendices/02-engineering-and-sdlc/Pull-Request-Template.md)
+  * [Architecture Template](06-appendices/02-engineering-and-sdlc/Architecture-Template.md)
   * [Test Charter Template](06-appendices/02-engineering-and-sdlc/Test-Charter-Template.md)
   * [Test Run Template](06-appendices/02-engineering-and-sdlc/Test-Run-Template.md)
   * [Release Record Template](06-appendices/02-engineering-and-sdlc/Release-Record-Template.md)
