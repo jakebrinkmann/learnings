@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-engineering/API/http-api-design.md",
+                "file": "01-architecture/03-architectural-patterns/Design Blocks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "http-api-design"
+              "title": "Design Blocks"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "core",
+                "query": "flow",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -193,6 +194,8 @@
   },
   "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
+    "gemini-scribe/Agent-Sessions/Agent Session 5-28-2026.md",
+    "02-engineering/API/http-api-design.md",
     "02-engineering/API/API-Events-hybrid.md",
     "02-engineering/API/APIDocumentation.md",
     "Untitled.md",
@@ -217,14 +220,12 @@
     "README.md",
     "AGENTS.md",
     "01-architecture/03-architectural-patterns/UI and Presentation Patterns.md",
-    "Epic 1.md",
     "fromJason/SDLC-EXEC-OVERVIEW-v1.0.html.txt",
     "fromJason/docs-sdlc-TOOLS-OVERVIEW.html.txt",
     "fromJason/sample_epic_spec 1 (1).txt",
     "fromJason/docs-sdlc-SDLC-PROCESS.html.txt",
     "fromJason/EKG-POLICY.html.txt",
     "fromJason",
-    "01-architecture/03-architectural-patterns/SOLID Principles.md",
     "gemini-scribe/Prompts",
     "assets/Pasted image 20260305122630.png",
     "pasted-image-1774888820176-d5hwkp.png",
