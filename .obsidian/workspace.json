@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-appendices/02-engineering-and-sdlc/Architecture-Template.md",
+                "file": "02-engineering/API/API-Events-hybrid.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Architecture-Template"
+              "title": "API-Events-hybrid"
             }
           }
         ]
@@ -192,10 +192,10 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "0f260974a106c908",
+  "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
-    "02-engineering/API/APIDocumentation.md",
     "06-appendices/02-engineering-and-sdlc/Architecture-Template.md",
+    "02-engineering/API/APIDocumentation.md",
     "02-engineering/API/API-Events-hybrid.md",
     "01-architecture/03-architectural-patterns/Design Blocks.md",
     "gemini-scribe/Agent-Sessions/Agent Session 5-28-2026.md",
