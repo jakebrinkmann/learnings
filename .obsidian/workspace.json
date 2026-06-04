@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-engineering/API/API-Events-hybrid.md",
+                "file": "02-engineering/API/APIDesign.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "API-Events-hybrid"
+              "title": "APIDesign"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "openapi",
+                "query": "404",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 528.5
+    "width": 528.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,14 +193,14 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "01f2a9f303520f0c",
+  "active": "0f260974a106c908",
   "lastOpenFiles": [
-    "06-appendices/02-engineering-and-sdlc/Architecture-Template.md",
+    "02-engineering/API/http-api-design.md",
     "02-engineering/API/APIDocumentation.md",
     "02-engineering/API/API-Events-hybrid.md",
+    "06-appendices/02-engineering-and-sdlc/Architecture-Template.md",
     "01-architecture/03-architectural-patterns/Design Blocks.md",
     "gemini-scribe/Agent-Sessions/Agent Session 5-28-2026.md",
-    "02-engineering/API/http-api-design.md",
     "Untitled.md",
     "01-architecture/04-architecture-as-code/C4 Model.md",
     "gemini-scribe/Agent-Sessions/Agent Session 5-27-2026.md",
