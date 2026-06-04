@@ -4,6 +4,9 @@ tags: "[backend, api]"
 j> You are not a drop in the ocean. You are the entire ocean in a drop.
 > <_protocol_> :// <_hostname_> [: <_port_>] / <_path_> [? <_query_>] [# <fragment>]
 
+[API Design Review](https://google.aip.dev/100)
+[Resource Oriented Design](https://google.aip.dev/121)
+
 Resource Model
   - API service: `<_service_name_>.<_domain_>.com`
     - A collection of instances: `projects/*/instances/*`.
