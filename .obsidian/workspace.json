@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-management/03-team-and-leadership/Interviews.md",
+                "file": "01-architecture/02-domain-driven-design/Subdomain-Distillation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interviews"
+              "title": "Subdomain-Distillation"
             }
           },
           {
@@ -208,9 +208,9 @@
   },
   "active": "0f260974a106c908",
   "lastOpenFiles": [
+    "03-management/03-team-and-leadership/Interviews.md",
     "06-appendices/03-personal-and-interviews/Interview-Template.md",
     "Untitled.md",
-    "03-management/03-team-and-leadership/Interviews.md",
     "02-engineering/API/APIDesign.md",
     "gemini-scribe/Agent-Sessions/Agent Session 6-11-2026.md",
     "gemini-scribe/Agent-Sessions/Agent Session 6-10-2026.md",

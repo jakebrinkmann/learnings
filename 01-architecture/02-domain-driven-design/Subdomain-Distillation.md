@@ -5,6 +5,11 @@ tags: [architecture, ddd, strategic-design]
 
 Separate **Problem Space** (What we are solving) from **Solution Space** (How we solve it with software).
 
+> **Problem Space vs. Solution Space in Practice**
+> We need leadership to agree on *what* we are solving before we debate *how* we are solving it.
+> 
+> System, Container, and Component: These are C4 modeling terms that describe the solution space (the actual software architecture). If a memo says "Container A: Form 4 Drafts," the conversation immediately shifts to infrastructure, deployment, and technology stacks (TypeScript vs. C#). Using "Domain" anchors the conversation in the problem space (the business capability). We are defining the boundary of the business problem first, and then assigning a system to solve it.
+
 ### The 3 Types of Subdomains
 
 A key mental model for distillation is separating what is **Essential** (required to run the business) from what is **Differentiating** (what gives you a competitive advantage).
