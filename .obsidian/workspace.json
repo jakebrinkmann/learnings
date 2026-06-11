@@ -177,8 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 528.5,
-    "collapsed": true
+    "width": 528.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,8 +192,9 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "0f260974a106c908",
+  "active": "01f2a9f303520f0c",
   "lastOpenFiles": [
+    "gemini-scribe/Agent-Sessions/Agent Session 6-10-2026.md",
     "02-engineering/API/http-api-design.md",
     "02-engineering/API/APIDocumentation.md",
     "02-engineering/API/API-Events-hybrid.md",
@@ -220,7 +220,6 @@
     "06-appendices/01-agile-and-project-management/Workflows.md",
     "02-engineering/API/FHIR.md",
     "SUMMARY.md",
-    "README.md",
     "fromJason/SDLC-EXEC-OVERVIEW-v1.0.html.txt",
     "fromJason/docs-sdlc-TOOLS-OVERVIEW.html.txt",
     "fromJason/sample_epic_spec 1 (1).txt",
