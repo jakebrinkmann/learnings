@@ -18,7 +18,9 @@ Popularized by Alan Klement in *When Coffee and Kale Compete*, this model emphas
 ### Redefining Competition (Coffee vs. Kale)
 Competition is defined by the Job, not the product category. Traditional business logic assumes a coffee company only competes with other coffee brands. However, if a customer's Job is *"Give me a healthy, energizing start to my morning,"* a cup of coffee and a green kale smoothie are in direct competition. Understanding this protects against "creative destruction" from unexpected outside innovations.
 
-## Pragmatic Advice: The Job Story
+## Pragmatic Advice
+
+### The Job Story
 A highly pragmatic way to apply JTBD in agile software development is to replace traditional User Stories ("As a [persona], I want to [action], so that [outcome]") with **Job Stories**. Traditional user stories often fail because they focus on demographic personas and assumed features rather than causality and context.
 
 The Job Story format focuses on the situation, motivation, and outcome:
@@ -29,6 +31,24 @@ The Job Story format focuses on the situation, motivation, and outcome:
 - **So I can (Outcome):** Focuses on how the user's life improves and the progress they make.
 
 By using this format, engineering teams design solutions around actual user struggles rather than arbitrary persona assumptions.
+
+### Reconciling Jobs: The Market Definition Canvas
+When defining a broader product strategy or architecture, you may encounter multiple competing "micro-jobs" across different features or complementary tools. Strategyn’s **JTBD Market Definition Canvas** provides a framework for reconciling and abstracting these into a unified market definition. 
+
+In this model, a **Market** is explicitly defined as: *A group of people + the job they are trying to get done.*
+
+To reconcile and abstract the core job, follow this process:
+1. **Identify the Job Executor:** Who is the overarching group using the product?
+2. **Catalog Product Functions:** What specific jobs do your product *and* complementary products get done?
+3. **Abstract and Reconcile:** Synthesize these micro-jobs into an overarching "Abstracted Job Statement" that represents the ultimate core functional job the user is trying to accomplish.
+
+**The Functional Job Syntax:**
+To maintain precision, the framework mandates that all reconciled job statements must be written in a strict, functional format:
+> **[Verb] + [Object of the verb] + [Contextual clarifier]**
+
+*Example:* "Safely [Verb] deploy code [Object] to production without downtime [Contextual clarifier]."
+
+This abstraction forces teams to step back from product-specific features and focus on the overarching outcome, ensuring conceptual integrity when prioritizing architectural decisions.
 
 ## Application in Software Engineering
 In software architecture and engineering, JTBD provides a strong foundation for building solutions with true conceptual integrity:
@@ -41,3 +61,4 @@ In software architecture and engineering, JTBD provides a strong foundation for 
 - [The Complete Guide to Jobs to be Done (Rewired Group)](https://therewiredgroup.com/learn/complete-guide-jobs-to-be-done/)
 - [The Jobs to be Done Playbook (Jim Kalbach)](https://jobs-to-be-done-book.com/)
 - [Replacing The User Story With The Job Story (Alan Klement)](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27)
+- [Strategyn JTBD Market Definition Canvas](https://strategyn.com/wp-content/uploads/2024/06/Strategyn_JTBD-Market-Definition_Canvas.pdf)
