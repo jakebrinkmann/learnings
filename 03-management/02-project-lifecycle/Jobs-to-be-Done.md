@@ -20,6 +20,20 @@ Competition is defined by the Job, not the product category. Traditional busines
 
 ## Pragmatic Advice
 
+### The 8-Step Universal Job Map (Product Discovery)
+While the 3-step Job Story format is excellent for agile *execution*, Tony Ulwick’s **8-Step Universal Job Map** provides a higher-signal framework for product *discovery*. By breaking a job down into its complete lifecycle, it helps identify exactly where a user is struggling, rather than just focusing on the core execution phase.
+
+1. **Define** (Determine goals/approach)
+2. **Locate** (Gather tools/info)
+3. **Prepare** (Set up the environment)
+4. **Confirm** (Verify readiness)
+5. **Execute** (Carry out the core task)
+6. **Monitor** (Assess execution success)
+7. **Modify** (Make adjustments)
+8. **Conclude** (Finish and clean up)
+
+**Why use this map?** Most engineering teams over-index on step 5 (Execute) and miss the actual struggling moments. The 8-step map forces you to look at the friction in the setup (Prepare) and tear-down (Conclude) phases. It provides massive signal for identifying where a user is *actually* struggling without adding bureaucratic noise.
+
 ### The Job Story
 A highly pragmatic way to apply JTBD in agile software development is to replace traditional User Stories ("As a [persona], I want to [action], so that [outcome]") with **Job Stories**. Traditional user stories often fail because they focus on demographic personas and assumed features rather than causality and context.
 
@@ -62,3 +76,4 @@ In software architecture and engineering, JTBD provides a strong foundation for 
 - [The Jobs to be Done Playbook (Jim Kalbach)](https://jobs-to-be-done-book.com/)
 - [Replacing The User Story With The Job Story (Alan Klement)](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27)
 - [Strategyn JTBD Market Definition Canvas](https://strategyn.com/wp-content/uploads/2024/06/Strategyn_JTBD-Market-Definition_Canvas.pdf)
+- The 8-Step Universal Job Map (Tony Ulwick / Strategyn)
