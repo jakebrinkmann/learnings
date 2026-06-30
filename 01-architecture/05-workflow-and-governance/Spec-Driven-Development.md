@@ -79,3 +79,22 @@ Rather than "vibe coding" (rapidly prompting AI to generate code without an arch
 2. **Design-by-Contract (DbC):** Defining formal, verifiable preconditions, postconditions, and invariants for software components.
 3. **Model-Based Systems Engineering (MBSE):** Using formalized modeling languages (like SysML) to specify system requirements, design, analysis, and verification.
 4. **Requirements Management Tools with EARS Integration:** Tools like **Jama Connect**, **QVscribe**, and **SES Engineering Studio** have built-in EARS templates that auto-evaluate requirement syntax as you type, ensuring specs are machine-readable before development begins.
+
+## 4. The SDD Kick-off Workflow: From Intent to Wireframe
+
+A common anti-pattern in modern development and AI-assisted engineering is **starting a project with a UI wireframe**. Doing so shifts the source of truth to visual designs rather than business logic, risking a slide into "vibe coding" and a loss of translation between stakeholder needs and architectural implementation. 
+
+In true Spec-Driven Development (and traditional BDD), behavioral scenarios must be phrased declaratively in business language, with **no reference to the UI elements** through which the interactions take place. 
+
+To bridge the gap between rigorous specification and the need for early business buy-in, the kick-off workflow should treat wireframes merely as a *visual projection* of the spec, not the spec itself.
+
+### The 4-Step Kick-off Plan
+
+1. **Step 1: Define "Jobs to be Done" & Core Intent**
+   Before sketching any UI, define the target audience, the core problems the system solves, system constraints, and explicit non-goals. This establishes the foundation (e.g., the OpenSpec proposal).
+2. **Step 2: Draft EARS Acceptance Criteria**
+   Translate the business intent into the Easy Approach to Requirements Syntax (EARS). By defining the triggers, states, and system responses independent of the UI (e.g., *"When the user submits a registration, the system shall..."*), you establish a machine-readable, UI-agnostic truth.
+3. **Step 3: Wireframe as a Constraint Map**
+   Generate the UI wireframe by mapping it strictly to the spec. Every button, form, and view must trace directly back to an EARS statement from Step 2. If a wireframe element does not have a corresponding behavioral spec, it is removed.
+4. **Step 4: Business Review & Alignment**
+   Present the wireframes to stakeholders *alongside* the SDD document. This secures buy-in on the behavior and the visuals simultaneously, ensuring that human developers and AI agents have a fully structured, validated spec to execute against during implementation.
